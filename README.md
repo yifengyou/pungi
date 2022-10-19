@@ -28,12 +28,35 @@ Composes are release snapshots that contain release deliverables such as:
 * 官方源码：<https://pagure.io/pungi>
 * 官方文档：<https://docs.pagure.org/pungi/index.html>
 
+
+
+
+
+
+
+
+
 ## 目录
 
 
 
 
+
+
+
+
+
+
+
 ## 图示
+
+
+
+
+
+
+
+
 
 
 ---
