@@ -1,0 +1,63 @@
+#!/usr/bin/python
+
+from __future__ import print_function
+
+
+import argparse
+import os
+import sys
+
+here = sys.path[0]
+if here != '/usr/bin':
+    # Git checkout
+    sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
+from kobo.rpmlib import parse_nvra, make_nvra
+from pungi.wrappers.pungi import PungiWrapper
+
+
+def read_rpms(fn):
+    pw = PungiWrapper()
+    with open(fn, "r") as f:
+        data, _, _ = pw.parse_log(f)
+    result = set()
+    for i in data["rpm"]:
+        nvra = parse_nvra(i["path"])
+        result.add(make_nvra(nvra, add_rpm=True))
+
+    return result
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument('old', metavar='OLD', default='pungi-yum.log')
+parser.add_argument('new', metavar='NEW', default='pungi-dnf.log')
+
+args = parser.parse_args()
+
+yum_rpms = read_rpms(args.old)
+dnf_rpms = read_rpms(args.new)
+
+removed = yum_rpms - dnf_rpms
+added = dnf_rpms - yum_rpms
+
+
+print("ADDED: %s" % len(added))
+for i in sorted(added):
+    print("    %s" % i)
+
+print()
+
+print("REMOVED: %s" % len(removed))
+for i in sorted(removed):
+    print("    %s" % i)
+
+print()
+
+print("ADDED:    %6s" % len(added))
+print("REMOVED:  %6s" % len(removed))
+print("YUM RPMS: %6s" % len(yum_rpms))
+print("DNF RPMS: %6s" % len(dnf_rpms))
+print("ALL RPMS: %6s" % len(yum_rpms | dnf_rpms))
+
+if added or removed:
+    sys.exit(1)

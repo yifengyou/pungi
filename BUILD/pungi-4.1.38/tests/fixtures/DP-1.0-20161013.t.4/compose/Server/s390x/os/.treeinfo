@@ -1,0 +1,33 @@
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = s390x
+family = Dummy Product
+name = Dummy Product 1.0
+platforms = s390x
+timestamp = 1476343975
+variant = Server
+variants = Server
+version = 1.0
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[release]
+name = Dummy Product
+short = DP
+version = 1.0
+
+[tree]
+arch = s390x
+build_timestamp = 1476343975
+platforms = s390x
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+type = variant
+uid = Server
+

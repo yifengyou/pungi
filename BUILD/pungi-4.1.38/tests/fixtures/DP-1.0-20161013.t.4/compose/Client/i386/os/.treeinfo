@@ -1,0 +1,33 @@
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = i386
+family = Dummy Product
+name = Dummy Product 1.0
+platforms = i386
+timestamp = 1476343975
+variant = Client
+variants = Client
+version = 1.0
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[release]
+name = Dummy Product
+short = DP
+version = 1.0
+
+[tree]
+arch = i386
+build_timestamp = 1476343975
+platforms = i386
+variants = Client
+
+[variant-Client]
+id = Client
+name = Client
+type = variant
+uid = Client
+

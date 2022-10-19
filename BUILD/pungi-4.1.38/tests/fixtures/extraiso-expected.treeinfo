@@ -1,0 +1,58 @@
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = x86_64
+family = Test
+name = Test 1.0
+packagedir = Client/Packages
+platforms = x86_64,xen
+repository = Client
+timestamp = 1531881582
+variant = Client
+variants = Client,Server
+version = 1.0
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[media]
+discnum = 1
+totaldiscs = 1
+
+[release]
+name = Test
+short = T
+version = 1.0
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1531881582
+platforms = x86_64,xen
+variants = Client,Server
+
+[variant-Client]
+id = Client
+name = Client
+packages = Client/Packages
+repository = Client
+type = variant
+uid = Client
+
+[variant-Server]
+id = Server
+name = Server
+packages = Server/Packages
+repository = Server
+type = variant
+uid = Server
+

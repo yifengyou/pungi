@@ -1,0 +1,135 @@
+{
+    "header": {
+        "type": "productmd.composeinfo",
+        "version": "1.2"
+    },
+    "payload": {
+        "compose": {
+            "date": "20161013",
+            "id": "DP-1.0-20161013.t.4",
+            "respin": 4,
+            "type": "test"
+        },
+        "release": {
+            "internal": false,
+            "name": "Dummy Product",
+            "short": "DP",
+            "type": "ga",
+            "version": "1.0"
+        },
+        "variants": {
+            "Client": {
+                "arches": [
+                    "i386",
+                    "x86_64"
+                ],
+                "id": "Client",
+                "name": "Client",
+                "paths": {
+                    "debug_packages": {
+                        "i386": "Client/i386/debug/tree/Packages",
+                        "x86_64": "Client/x86_64/debug/tree/Packages"
+                    },
+                    "debug_repository": {
+                        "i386": "Client/i386/debug/tree",
+                        "x86_64": "Client/x86_64/debug/tree"
+                    },
+                    "debug_tree": {
+                        "i386": "Client/i386/debug/tree",
+                        "x86_64": "Client/x86_64/debug/tree"
+                    },
+                    "isos": {
+                        "i386": "Client/i386/iso",
+                        "x86_64": "Client/x86_64/iso"
+                    },
+                    "os_tree": {
+                        "i386": "Client/i386/os",
+                        "x86_64": "Client/x86_64/os"
+                    },
+                    "packages": {
+                        "i386": "Client/i386/os/Packages",
+                        "x86_64": "Client/x86_64/os/Packages"
+                    },
+                    "repository": {
+                        "i386": "Client/i386/os",
+                        "x86_64": "Client/x86_64/os"
+                    },
+                    "source_isos": {
+                        "i386": "Client/source/iso",
+                        "x86_64": "Client/source/iso"
+                    },
+                    "source_packages": {
+                        "i386": "Client/source/tree/Packages",
+                        "x86_64": "Client/source/tree/Packages"
+                    },
+                    "source_repository": {
+                        "i386": "Client/source/tree",
+                        "x86_64": "Client/source/tree"
+                    },
+                    "source_tree": {
+                        "i386": "Client/source/tree",
+                        "x86_64": "Client/source/tree"
+                    }
+                },
+                "type": "variant",
+                "uid": "Client"
+            },
+            "Server": {
+                "arches": [
+                    "s390x",
+                    "x86_64"
+                ],
+                "id": "Server",
+                "name": "Server",
+                "paths": {
+                    "debug_packages": {
+                        "s390x": "Server/s390x/debug/tree/Packages",
+                        "x86_64": "Server/x86_64/debug/tree/Packages"
+                    },
+                    "debug_repository": {
+                        "s390x": "Server/s390x/debug/tree",
+                        "x86_64": "Server/x86_64/debug/tree"
+                    },
+                    "debug_tree": {
+                        "s390x": "Server/s390x/debug/tree",
+                        "x86_64": "Server/x86_64/debug/tree"
+                    },
+                    "isos": {
+                        "s390x": "Server/s390x/iso",
+                        "x86_64": "Server/x86_64/iso"
+                    },
+                    "os_tree": {
+                        "s390x": "Server/s390x/os",
+                        "x86_64": "Server/x86_64/os"
+                    },
+                    "packages": {
+                        "s390x": "Server/s390x/os/Packages",
+                        "x86_64": "Server/x86_64/os/Packages"
+                    },
+                    "repository": {
+                        "s390x": "Server/s390x/os",
+                        "x86_64": "Server/x86_64/os"
+                    },
+                    "source_isos": {
+                        "s390x": "Server/source/iso",
+                        "x86_64": "Server/source/iso"
+                    },
+                    "source_packages": {
+                        "s390x": "Server/source/tree/Packages",
+                        "x86_64": "Server/source/tree/Packages"
+                    },
+                    "source_repository": {
+                        "s390x": "Server/source/tree",
+                        "x86_64": "Server/source/tree"
+                    },
+                    "source_tree": {
+                        "s390x": "Server/source/tree",
+                        "x86_64": "Server/source/tree"
+                    }
+                },
+                "type": "variant",
+                "uid": "Server"
+            }
+        }
+    }
+}

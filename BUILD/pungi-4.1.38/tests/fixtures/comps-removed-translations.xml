@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <group>
+    <id>core</id>
+    <name>Core</name>
+    <description>Smallest possible installation</description>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq arch="ppc64le">Dummy-firefox</packagereq>
+      <packagereq arch="x86_64">dummy-icedtea-web</packagereq>
+    </packagelist>
+  </group>
+  <group arch="ppc64le" variant="Client">
+    <id>standard</id>
+    <name>Standard</name>
+    <description>Common set of utilities that extend the minimal installation.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq arch="x86_64">dummy-lvm2</packagereq>
+    </packagelist>
+  </group>
+  <group arch="x86_64">
+    <id>text-internet</id>
+    <name>Text-based Internet</name>
+    <description>This group includes text-based email, Web, and chat clients.  These applications do not require the X Window System.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional" variant="Server">dummy-elinks</packagereq>
+      <packagereq type="optional" variant="Client">dummy-tftp</packagereq>
+    </packagelist>
+  </group>
+  <environment arch="x86_64">
+    <id>minimal</id>
+    <name>Minimal install</name>
+    <description>Basic functionality.</description>
+    <display_order>99</display_order>
+    <grouplist>
+      <groupid>core</groupid>
+    </grouplist>
+    <optionlist>
+    </optionlist>
+  </environment>
+  <environment variant="Server">
+    <id>desktop</id>
+    <name>Desktop</name>
+    <description>Desktop.</description>
+    <display_order>10</display_order>
+    <grouplist>
+      <groupid>standard</groupid>
+    </grouplist>
+  </environment>
+  <langpacks>
+    <match install="LabPlot-doc-%s" name="LabPlot-doc"/>
+  </langpacks>
+  <category>
+    <id>apps</id>
+    <name>Applications</name>
+    <description>Applications to perform a variety of tasks</description>
+    <display_order>20</display_order>
+    <grouplist>
+      <groupid>firefox</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>empty-cat</id>
+    <name>A dummy category</name>
+    <description>This should be filtered out</description>
+    <display_order>20</display_order>
+    <grouplist>
+    </grouplist>
+  </category>
+</comps>

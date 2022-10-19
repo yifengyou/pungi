@@ -1,0 +1,15 @@
+include AUTHORS
+include COPYING
+include GPL
+include pungi.spec
+include tox.ini
+include share/*
+include share/multilib/*
+include doc/*
+include doc/_static/*
+include tests/*
+include tests/data/*
+include tests/data/specs/*
+recursive-include tests/fixtures *
+global-exclude *.py[co]
+global-exclude *~ *.sw? \#*\#

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps
+  PUBLIC '-//Red Hat, Inc.//DTD Comps info//EN'
+  'comps.dtd'>
+<comps>
+  <group>
+    <id>basic-desktop</id>
+    <name>Desktop</name>
+    <description>Basic Desktop packages</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq requires="dummy-imsettings" type="conditional">dummy-imsettings-gnome</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>core</id>
+    <name>Core</name>
+    <name xml:lang="af">Kern</name>
+    <name xml:lang="am">ማዕከላዊ ቦታ</name>
+    <description>Smallest possible installation</description>
+    <description xml:lang="af">Kleinste moontlike installasie</description>
+    <description xml:lang="am">ትንሹ የሚቻለው የማስገባት ሥራ</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">dummy-bash</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>resilient-storage</id>
+    <name>Resilient Storage</name>
+    <description>Clustered storage, including the GFS2 filesystem.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <langonly>en</langonly>
+    <packagelist>
+      <packagereq type="mandatory">dummy-gfs2-utils</packagereq>
+      <packagereq type="mandatory">dummy-lvm2-cluster</packagereq>
+      <packagereq type="mandatory">dummy-pacemaker</packagereq>
+      <packagereq type="mandatory">dummy-resource-agents</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>standard</id>
+    <name>Standard</name>
+    <description>Common set of utilities that extend the minimal installation.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">dummy-lvm2</packagereq>
+    </packagelist>
+  </group>
+  <environment>
+    <id>desktop</id>
+    <name>Desktop</name>
+    <description>Desktop.</description>
+    <display_order>10</display_order>
+    <grouplist>
+      <groupid>basic-desktop</groupid>
+      <groupid>core</groupid>
+      <groupid>standard</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>text-internet</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>empty</id>
+    <name>Empty</name>
+    <description>Should not appear in the repos.</description>
+    <display_order>10</display_order>
+    <grouplist>
+      <groupid>does-not-exist</groupid>
+    </grouplist>
+  </environment>
+  <environment>
+    <id>minimal</id>
+    <name>Minimal install</name>
+    <name xml:lang="bg">Минимална инсталация</name>
+    <name xml:lang="ca">Instal·lació mínima</name>
+    <description>Basic functionality.</description>
+    <description xml:lang="bg">Основна функционалност.</description>
+    <description xml:lang="ca">Funcionalitat bàsica.</description>
+    <display_order>99</display_order>
+    <grouplist>
+      <groupid>core</groupid>
+    </grouplist>
+  </environment>
+  <langpacks>
+    <match install="aspell-%s" name="aspell"/>
+    <match install="firefox-langpack-%s" name="firefox"/>
+    <match install="kde-l10n-%s" name="kdelibs"/>
+  </langpacks>
+</comps>

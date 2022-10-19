@@ -1,0 +1,33 @@
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = x86_64
+family = Dummy Product
+name = Dummy Product 1.0
+platforms = x86_64
+timestamp = 1476343975
+variant = Server
+variants = Server
+version = 1.0
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[release]
+name = Dummy Product
+short = DP
+version = 1.0
+
+[tree]
+arch = x86_64
+build_timestamp = 1476343975
+platforms = x86_64
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+type = variant
+uid = Server
+

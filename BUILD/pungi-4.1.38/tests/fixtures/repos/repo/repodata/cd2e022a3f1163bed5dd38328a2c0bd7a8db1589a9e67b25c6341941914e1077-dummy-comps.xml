@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+
+  <!-- GROUPS -->
+
+  <group>
+    <id>core</id>
+    <name>Core</name>
+    <description>Smallest possible installation</description>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">dummy-bash</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>standard</id>
+    <name>Standard</name>
+    <description>Common set of utilities that extend the minimal installation.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq>dummy-lvm2</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>text-internet</id>
+    <name>Text-based Internet</name>
+    <description>This group includes text-based email, Web, and chat clients.  These applications do not require the X Window System.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">dummy-elinks</packagereq>
+      <packagereq type="optional">dummy-tftp</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>firefox</id>
+    <name>Firefox Web Browser</name>
+    <description>The Firefox web browser</description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq>Dummy-firefox</packagereq>
+      <packagereq>dummy-icedtea-web</packagereq>
+    </packagelist>
+  </group>
+
+  <group arch="i386 x86_64">
+    <id>skype</id>
+    <name>Skype</name>
+    <description>Free internet telephony</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq>dummy-skype</packagereq>
+    </packagelist>
+  </group>
+
+  <group arch="x86_64">
+    <id>resilient-storage</id>
+    <name>Resilient Storage</name>
+    <description>Clustered storage, including the GFS2 filesystem.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">dummy-gfs2-utils</packagereq>
+      <packagereq type="mandatory">dummy-lvm2-cluster</packagereq>
+      <packagereq type="mandatory">dummy-pacemaker</packagereq>
+      <packagereq type="mandatory">dummy-resource-agents</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>gluster</id>
+    <name>Gluster</name>
+    <description>GlusterFS support packages</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">dummy-glusterfs-resource-agents</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>basic-desktop</id>
+    <name>Desktop</name>
+    <description>Basic Desktop packages</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="conditional" requires="dummy-imsettings">dummy-imsettings-gnome</packagereq>
+    </packagelist>
+  </group>
+
+  <!-- ENVIRONMENTS -->
+
+  <environment>
+    <id>minimal</id>
+    <name>Minimal install</name>
+    <description>Basic functionality.</description>
+    <display_order>99</display_order>
+    <grouplist>
+      <groupid>core</groupid>
+    </grouplist>
+    <optionlist>
+    </optionlist>
+  </environment>
+
+  <environment>
+    <id>desktop</id>
+    <name>Desktop</name>
+    <description>Desktop.</description>
+    <display_order>10</display_order>
+    <grouplist>
+      <groupid>core</groupid>
+      <groupid>standard</groupid>
+      <groupid>basic-desktop</groupid>
+    </grouplist>
+    <optionlist>
+    </optionlist>
+  </environment>
+
+  <environment>
+    <id>empty</id>
+    <name>Empty</name>
+    <description>Should not appear in the repos.</description>
+    <display_order>10</display_order>
+    <grouplist>
+      <groupid>does-not-exist</groupid>
+    </grouplist>
+  </environment>
+
+  <!-- LANGPACKS -->
+
+  <langpacks>
+    <match install="LabPlot-doc-%s" name="LabPlot-doc"/>
+    <match install="aspell-%s" name="aspell"/>
+    <match install="autocorr-%s" name="autocorr-en"/>
+    <match install="calligra-l10n-%s" name="calligra-core"/>
+    <match install="childsplay-alphabet_sounds_%s" name="childsplay"/>
+    <match install="eclipse-nls-%s" name="eclipse-platform"/>
+    <match install="firefox-langpack-%s" name="firefox"/>
+    <match install="gcompris-sound-%s" name="gcompris"/>
+    <match install="gimp-help-%s" name="gimp-help"/>
+    <match install="hunspell-%s" name="hunspell"/>
+    <match install="hyphen-%s" name="hyphen"/>
+    <match install="kde-l10n-%s" name="kdelibs"/>
+    <match install="kde-i18n-%s" name="kdelibs3"/>
+    <match install="libreoffice-langpack-%s" name="libreoffice-core"/>
+    <match install="man-pages-%s" name="man-pages"/>
+    <match install="moodle-%s" name="moodle"/>
+    <match install="mythes-%s" name="mythes"/>
+    <match install="nqc-doc-%s" name="nqc-doc"/>
+    <match install="openoffice.org-langpack-%s" name="openoffice.org-core"/>
+    <match install="tesseract-langpack-%s" name="tesseract"/>
+    <match install="tkgate-%s" name="tkgate"/>
+    <match install="dummy-release-notes-%s" name="dummy-release-notes" />
+  </langpacks>
+</comps>

@@ -1,0 +1,18 @@
+{
+    "Client": {
+        "x86_64": {
+            "bar": [
+                "bar.x86_64"
+            ]
+        }
+    },
+    "Server": {
+        "x86_64": {
+            "foo": [
+                "foo.x86_64",
+                "foo.i686",
+                "foo-common.noarch"
+            ]
+        }
+    }
+}

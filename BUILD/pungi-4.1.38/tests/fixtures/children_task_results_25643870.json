@@ -1,0 +1,4856 @@
+{
+    "25643896": {
+        "files": [
+            "tdl-armhfp.xml",
+            "fedora-docker-base.ks",
+            "koji-f29-build-25643896-base.ks",
+            "Fedora-Container-Base-Rawhide-20180311.n.1.armhfp.tar.xz"
+        ],
+        "rpmlist": [
+            {
+                "name": "publicsuffix-list-dafsa",
+                "buildtime": 1519778433,
+                "epoch": null,
+                "version": "20180223",
+                "release": "1.fc29",
+                "arch": "noarch",
+                "payloadhash": "e9c5922827f191a6c54c2268c952287d",
+                "size": 54665
+            },
+            {
+                "name": "dnf-conf",
+                "buildtime": 1518447959,
+                "epoch": null,
+                "version": "2.7.5",
+                "release": "8.fc28",
+                "arch": "noarch",
+                "payloadhash": "753f7cdc848e847157db8fb73d1cd634",
+                "size": 33052
+            },
+            {
+                "name": "fedora-repos-rawhide",
+                "buildtime": 1520718319,
+                "epoch": null,
+                "version": "29",
+                "release": "0.3",
+                "arch": "noarch",
+                "payloadhash": "1ed982988d88b9d060d87d9786cdf883",
+                "size": 4276
+            },
+            {
+                "name": "fedora-release",
+                "buildtime": 1519147449,
+                "epoch": null,
+                "version": "29",
+                "release": "0.1",
+                "arch": "noarch",
+                "payloadhash": "916d9ecc865b576d8d78443cca0e4023",
+                "size": 11823
+            },
+            {
+                "name": "filesystem",
+                "buildtime": 1519147949,
+                "epoch": null,
+                "version": "3.8",
+                "release": "3.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "222574a62f302377718554f4e3581136",
+                "size": 0
+            },
+            {
+                "name": "ncurses-base",
+                "buildtime": 1519659992,
+                "epoch": null,
+                "version": "6.1",
+                "release": "4.20180224.fc29",
+                "arch": "noarch",
+                "payloadhash": "ac250770973dbd798aa310f9982aa465",
+                "size": 290089
+            },
+            {
+                "name": "rootfiles",
+                "buildtime": 1518186661,
+                "epoch": null,
+                "version": "8.1",
+                "release": "22.fc28",
+                "arch": "noarch",
+                "payloadhash": "2f9c0518edf47a80c269222c354f2a70",
+                "size": 599
+            },
+            {
+                "name": "pcre2",
+                "buildtime": 1519658873,
+                "epoch": null,
+                "version": "10.31",
+                "release": "3.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "b65b7addc1fec7742bb9e0a8de326ba6",
+                "size": 588787
+            },
+            {
+                "name": "glibc-minimal-langpack",
+                "buildtime": 1520607705,
+                "epoch": null,
+                "version": "2.27.9000",
+                "release": "8.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "106f2e940394ffaba11d6d406bd412d1",
+                "size": 0
+            },
+            {
+                "name": "glibc-common",
+                "buildtime": 1520607705,
+                "epoch": null,
+                "version": "2.27.9000",
+                "release": "8.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "929ffedf805bb01555196283846c7644",
+                "size": 3149139
+            },
+            {
+                "name": "bash",
+                "buildtime": 1518529928,
+                "epoch": null,
+                "version": "4.4.19",
+                "release": "1.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "cc3e527948ab1bb5166dac9376e07e85",
+                "size": 6777008
+            },
+            {
+                "name": "elfutils-default-yama-scope",
+                "buildtime": 1501756032,
+                "epoch": null,
+                "version": "0.170",
+                "release": "1.fc27",
+                "arch": "noarch",
+                "payloadhash": "44f61862c239a990fbcb063fb447714d",
+                "size": 1810
+            },
+            {
+                "name": "zlib",
+                "buildtime": 1518247578,
+                "epoch": null,
+                "version": "1.2.11",
+                "release": "6.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "170dd3ef84f55f0f04a89a49def73e1b",
+                "size": 189987
+            },
+            {
+                "name": "bzip2-libs",
+                "buildtime": 1519898986,
+                "epoch": null,
+                "version": "1.0.6",
+                "release": "27.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "03db89a5d45de1790e840b620ce79dc5",
+                "size": 71089
+            },
+            {
+                "name": "libcap",
+                "buildtime": 1519204357,
+                "epoch": null,
+                "version": "2.25",
+                "release": "10.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "d83937b94bb0e16e7901457d339d4c47",
+                "size": 105121
+            },
+            {
+                "name": "libgpg-error",
+                "buildtime": 1518080410,
+                "epoch": null,
+                "version": "1.27",
+                "release": "5.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "a20dae774aefd4792f43b9dbf1089e4a",
+                "size": 696134
+            },
+            {
+                "name": "popt",
+                "buildtime": 1518154850,
+                "epoch": null,
+                "version": "1.16",
+                "release": "14.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "b92ae0dabcca9ec85335e4add8d81961",
+                "size": 118222
+            },
+            {
+                "name": "libxcrypt",
+                "buildtime": 1518857522,
+                "epoch": null,
+                "version": "4.0.0",
+                "release": "5.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "db2209ffb5ac9b44b2f0afade344dbe0",
+                "size": 189944
+            },
+            {
+                "name": "libzstd",
+                "buildtime": 1518249070,
+                "epoch": null,
+                "version": "1.3.3",
+                "release": "3.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "65178f11990c5e0a3668b6040bedfa29",
+                "size": 460198
+            },
+            {
+                "name": "libuuid",
+                "buildtime": 1519160814,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "4c1947f738de82e913a0aed2e234e855",
+                "size": 32916
+            },
+            {
+                "name": "readline",
+                "buildtime": 1518192314,
+                "epoch": null,
+                "version": "7.0",
+                "release": "8.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "f1228bd0744c6d7141941970a9c4157d",
+                "size": 459993
+            },
+            {
+                "name": "libattr",
+                "buildtime": 1517974633,
+                "epoch": null,
+                "version": "2.4.47",
+                "release": "23.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "5ba227c7aa0754017d4787d4dd24921b",
+                "size": 21093
+            },
+            {
+                "name": "coreutils-single",
+                "buildtime": 1520338379,
+                "epoch": null,
+                "version": "8.29",
+                "release": "6.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "7e5d5e1bfddca526a13b717b8d6e65e3",
+                "size": 1413221
+            },
+            {
+                "name": "libblkid",
+                "buildtime": 1519160814,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "2c07334cf62209a5bac9ca0ece7c5250",
+                "size": 322380
+            },
+            {
+                "name": "gmp",
+                "buildtime": 1518022300,
+                "epoch": 1,
+                "version": "6.1.2",
+                "release": "7.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "23eaf36effbab333c9a7e0056af599fb",
+                "size": 658727
+            },
+            {
+                "name": "p11-kit",
+                "buildtime": 1519811271,
+                "epoch": null,
+                "version": "0.23.10",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "6b0342095392cfb9058eea6009437c8e",
+                "size": 1116490
+            },
+            {
+                "name": "libidn2",
+                "buildtime": 1518963516,
+                "epoch": null,
+                "version": "2.0.4",
+                "release": "3.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "544835a4a16bc81cffde3b03801653b6",
+                "size": 233688
+            },
+            {
+                "name": "audit-libs",
+                "buildtime": 1520683243,
+                "epoch": null,
+                "version": "2.8.3",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "9e81a3e7282c5d54a7d80e4b2b3aa860",
+                "size": 264696
+            },
+            {
+                "name": "chkconfig",
+                "buildtime": 1517980137,
+                "epoch": null,
+                "version": "1.10",
+                "release": "4.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "7a6d9c6911501e3b625ac7af2f9d8ad8",
+                "size": 773755
+            },
+            {
+                "name": "libassuan",
+                "buildtime": 1518076209,
+                "epoch": null,
+                "version": "2.5.1",
+                "release": "3.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "962984b892356b872bb57a25b1ec0ef3",
+                "size": 181867
+            },
+            {
+                "name": "libsmartcols",
+                "buildtime": 1519160814,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "1274b7c44cfd0821256cd6692a06f72a",
+                "size": 221350
+            },
+            {
+                "name": "pcre",
+                "buildtime": 1519635511,
+                "epoch": null,
+                "version": "8.42",
+                "release": "0.2.RC1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "f728727af86b780893ccb695dc0c9cfb",
+                "size": 475725
+            },
+            {
+                "name": "systemd-libs",
+                "buildtime": 1520469879,
+                "epoch": null,
+                "version": "238",
+                "release": "3.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "f0e010b4a45063fb8374d6fee46268b9",
+                "size": 1496874
+            },
+            {
+                "name": "crypto-policies",
+                "buildtime": 1520340280,
+                "epoch": null,
+                "version": "20180306",
+                "release": "1.gitaea6928.fc29",
+                "arch": "noarch",
+                "payloadhash": "e9532cfbd0a6e00131a4141f6007bc61",
+                "size": 45433
+            },
+            {
+                "name": "libtasn1",
+                "buildtime": 1518090100,
+                "epoch": null,
+                "version": "4.13",
+                "release": "2.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "090075dc9c2c2b1c5bf3cfe26d0f4ae6",
+                "size": 153929
+            },
+            {
+                "name": "ca-certificates",
+                "buildtime": 1519423833,
+                "epoch": null,
+                "version": "2018.2.22",
+                "release": "3.fc29",
+                "arch": "noarch",
+                "payloadhash": "8633056eb621596418c416f45f5a8327",
+                "size": 974880
+            },
+            {
+                "name": "libarchive",
+                "buildtime": 1517659261,
+                "epoch": null,
+                "version": "3.3.1",
+                "release": "4.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "c0e3fc82d5934d35cdfc58b5961945c9",
+                "size": 740742
+            },
+            {
+                "name": "libusbx",
+                "buildtime": 1518090428,
+                "epoch": null,
+                "version": "1.0.21",
+                "release": "6.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "f70c252e01992398094bb0433d3fcf7d",
+                "size": 128277
+            },
+            {
+                "name": "shadow-utils",
+                "buildtime": 1517913736,
+                "epoch": 2,
+                "version": "4.5",
+                "release": "9.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "8b460cf1a619e19f25808510918253ed",
+                "size": 3709514
+            },
+            {
+                "name": "libpsl",
+                "buildtime": 1519779968,
+                "epoch": null,
+                "version": "0.20.1",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "90f37a3cb93ffbe63b23c8e99bb39b79",
+                "size": 65480
+            },
+            {
+                "name": "nettle",
+                "buildtime": 1511165857,
+                "epoch": null,
+                "version": "3.4",
+                "release": "1.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "c038c03209727e3c67b4b502b0ef631f",
+                "size": 540458
+            },
+            {
+                "name": "libfdisk",
+                "buildtime": 1519160814,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "6807af73efb126b10ad97f192260ceed",
+                "size": 444854
+            },
+            {
+                "name": "cracklib",
+                "buildtime": 1519215735,
+                "epoch": null,
+                "version": "2.9.6",
+                "release": "13.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "70a8f8c2c362a2aefa032d7952439a4d",
+                "size": 193264
+            },
+            {
+                "name": "libcomps",
+                "buildtime": 1519839744,
+                "epoch": null,
+                "version": "0.1.8",
+                "release": "12.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "c78faa728bdbfd85aa12adee03ba56e1",
+                "size": 164343
+            },
+            {
+                "name": "libmetalink",
+                "buildtime": 1518083582,
+                "epoch": null,
+                "version": "0.1.3",
+                "release": "6.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "4e36af6fd27abc10a16c51db5d7a59fd",
+                "size": 49356
+            },
+            {
+                "name": "libdb-utils",
+                "buildtime": 1518078854,
+                "epoch": null,
+                "version": "5.3.28",
+                "release": "30.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "a68aed132ed265231b3fe514679dfbf9",
+                "size": 331067
+            },
+            {
+                "name": "file-libs",
+                "buildtime": 1517999349,
+                "epoch": null,
+                "version": "5.32",
+                "release": "3.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "9949f7cbb62b4f382ce29caa4bf55ac1",
+                "size": 6093625
+            },
+            {
+                "name": "libsss_nss_idmap",
+                "buildtime": 1520609873,
+                "epoch": null,
+                "version": "1.16.1",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "2d7c4f29218b240bc382044ab5ec5626",
+                "size": 82486
+            },
+            {
+                "name": "libsigsegv",
+                "buildtime": 1518089039,
+                "epoch": null,
+                "version": "2.11",
+                "release": "5.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "f5cbeb42a8c9d8c33a699ec49b40cce1",
+                "size": 41162
+            },
+            {
+                "name": "krb5-libs",
+                "buildtime": 1520446113,
+                "epoch": null,
+                "version": "1.16",
+                "release": "8.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "383a36f5a08dbfa344ebec05616266bf",
+                "size": 2013536
+            },
+            {
+                "name": "libnsl2",
+                "buildtime": 1518190155,
+                "epoch": null,
+                "version": "1.2.0",
+                "release": "1.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "bc9b1d34c13e0ae10abbd5aa67a0e07e",
+                "size": 113950
+            },
+            {
+                "name": "python3-pip",
+                "buildtime": 1519312672,
+                "epoch": null,
+                "version": "9.0.1",
+                "release": "16.fc29",
+                "arch": "noarch",
+                "payloadhash": "2feef52928dec47dca1cd947b3aa5457",
+                "size": 7353328
+            },
+            {
+                "name": "python3",
+                "buildtime": 1519502035,
+                "epoch": null,
+                "version": "3.6.4",
+                "release": "16.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "0476d5528357d837aa5eb83b5a1915e7",
+                "size": 34461
+            },
+            {
+                "name": "pam",
+                "buildtime": 1518114589,
+                "epoch": null,
+                "version": "1.3.0",
+                "release": "10.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "beece75c1540096a0be856d047302ad2",
+                "size": 2517963
+            },
+            {
+                "name": "util-linux",
+                "buildtime": 1519160814,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "e3d7d64830c8f2c204f9b598d78dbef5",
+                "size": 10630424
+            },
+            {
+                "name": "python3-dateutil",
+                "buildtime": 1518161111,
+                "epoch": 1,
+                "version": "2.6.1",
+                "release": "3.fc28",
+                "arch": "noarch",
+                "payloadhash": "0085c9c36044bdf5ab758d1e255c2939",
+                "size": 595902
+            },
+            {
+                "name": "python3-smartcols",
+                "buildtime": 1518179229,
+                "epoch": null,
+                "version": "0.3.0",
+                "release": "2.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "6f423d6c31d9c6bfa31e89bfa10718de",
+                "size": 296065
+            },
+            {
+                "name": "openldap",
+                "buildtime": 1520243826,
+                "epoch": null,
+                "version": "2.4.45",
+                "release": "14.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "25092d87831495de918a4a04b7b26fb2",
+                "size": 870053
+            },
+            {
+                "name": "libseccomp",
+                "buildtime": 1518089471,
+                "epoch": null,
+                "version": "2.3.3",
+                "release": "2.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "e55fd8606798e6c1f251dbd60bc33bf5",
+                "size": 186406
+            },
+            {
+                "name": "libpcap",
+                "buildtime": 1519129239,
+                "epoch": 14,
+                "version": "1.8.1",
+                "release": "9.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "916537caac229165db180d7c927f6001",
+                "size": 305935
+            },
+            {
+                "name": "json-c",
+                "buildtime": 1520347561,
+                "epoch": null,
+                "version": "0.13.1",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "83354906822cb5b93cffd57bd703cc67",
+                "size": 58806
+            },
+            {
+                "name": "device-mapper",
+                "buildtime": 1518172189,
+                "epoch": null,
+                "version": "1.02.146",
+                "release": "4.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "bff665067929d7383f9526e3a2306191",
+                "size": 330939
+            },
+            {
+                "name": "cryptsetup-libs",
+                "buildtime": 1520428378,
+                "epoch": null,
+                "version": "2.0.2",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "2e1cccdea598b6218ef7fdc0aec47bae",
+                "size": 1257747
+            },
+            {
+                "name": "systemd",
+                "buildtime": 1520469879,
+                "epoch": null,
+                "version": "238",
+                "release": "3.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "28c56766bb5816cdc3667559a2388882",
+                "size": 9801423
+            },
+            {
+                "name": "libyaml",
+                "buildtime": 1517672149,
+                "epoch": null,
+                "version": "0.1.7",
+                "release": "5.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "21d87a149d832b2d5985fca2f333cc1d",
+                "size": 109758
+            },
+            {
+                "name": "python3-modulemd",
+                "buildtime": 1512996876,
+                "epoch": null,
+                "version": "1.3.3",
+                "release": "1.fc28",
+                "arch": "noarch",
+                "payloadhash": "954768a4309b5103741eaee5baccdd8a",
+                "size": 205501
+            },
+            {
+                "name": "gnupg2",
+                "buildtime": 1520008362,
+                "epoch": null,
+                "version": "2.2.5",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "e140943ce76d1499efd6d31e720e31d1",
+                "size": 8628403
+            },
+            {
+                "name": "python3-gpg",
+                "buildtime": 1518034495,
+                "epoch": null,
+                "version": "1.10.0",
+                "release": "3.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "d694c9399fe619506e76fdef3864f029",
+                "size": 1179921
+            },
+            {
+                "name": "cracklib-dicts",
+                "buildtime": 1519215735,
+                "epoch": null,
+                "version": "2.9.6",
+                "release": "13.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "1e7c43f6ec3a387809236e4c0bed691d",
+                "size": 9813249
+            },
+            {
+                "name": "librepo",
+                "buildtime": 1519225454,
+                "epoch": null,
+                "version": "1.8.1",
+                "release": "7.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "d8d00f21849c4afb1c000dd14f5d20d1",
+                "size": 175260
+            },
+            {
+                "name": "curl",
+                "buildtime": 1519039814,
+                "epoch": null,
+                "version": "7.58.0",
+                "release": "7.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "a8749d9e3e9d58efb8ec02c591c97578",
+                "size": 670757
+            },
+            {
+                "name": "rpm-libs",
+                "buildtime": 1519129958,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "596e7bdbdf521b5c9eb53d0f1018883f",
+                "size": 562744
+            },
+            {
+                "name": "libsolv",
+                "buildtime": 1519846195,
+                "epoch": null,
+                "version": "0.6.33",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "47b117d51a2c592e50a89fd63d08f59e",
+                "size": 699524
+            },
+            {
+                "name": "python3-hawkey",
+                "buildtime": 1510053224,
+                "epoch": null,
+                "version": "0.11.1",
+                "release": "3.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "e70b2179ff683fd6548b1a5552cd24ea",
+                "size": 144625
+            },
+            {
+                "name": "rpm-sign-libs",
+                "buildtime": 1519129958,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "d6ae8aea30f1ed2e53c8ad0654a438b9",
+                "size": 23396
+            },
+            {
+                "name": "python3-dnf",
+                "buildtime": 1518447959,
+                "epoch": null,
+                "version": "2.7.5",
+                "release": "8.fc28",
+                "arch": "noarch",
+                "payloadhash": "78dd1942420a7e4e06c9ea579d9ade37",
+                "size": 2025971
+            },
+            {
+                "name": "dnf-yum",
+                "buildtime": 1518447959,
+                "epoch": null,
+                "version": "2.7.5",
+                "release": "8.fc28",
+                "arch": "noarch",
+                "payloadhash": "5e7e2983513eccd4eb1eb9ccf8a32822",
+                "size": 738
+            },
+            {
+                "name": "rpm-plugin-systemd-inhibit",
+                "buildtime": 1519129958,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "464f45a12c93827038770a882669f7ba",
+                "size": 11500
+            },
+            {
+                "name": "tar",
+                "buildtime": 1518223613,
+                "epoch": 2,
+                "version": "1.30",
+                "release": "3.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "7b3c95d9988c42ac8dcf4282b4a7d4f9",
+                "size": 2851168
+            },
+            {
+                "name": "diffutils",
+                "buildtime": 1517990250,
+                "epoch": null,
+                "version": "3.6",
+                "release": "4.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "e5452acc08921933a0695a67cbb2d098",
+                "size": 1352297
+            },
+            {
+                "name": "tzdata",
+                "buildtime": 1518228415,
+                "epoch": null,
+                "version": "2018c",
+                "release": "2.fc28",
+                "arch": "noarch",
+                "payloadhash": "5bfd58cce6928d8fbd1ea83a93a9d2b5",
+                "size": 1862388
+            },
+            {
+                "name": "libreport-filesystem",
+                "buildtime": 1520349554,
+                "epoch": null,
+                "version": "2.9.3",
+                "release": "8.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "e8ee08f46b78b4c133da543c8385ca24",
+                "size": 0
+            },
+            {
+                "name": "fedora-gpg-keys",
+                "buildtime": 1520718319,
+                "epoch": null,
+                "version": "29",
+                "release": "0.3",
+                "arch": "noarch",
+                "payloadhash": "eacfdbcb1daf4b31d30d81226db6de5d",
+                "size": 97235
+            },
+            {
+                "name": "fedora-repos",
+                "buildtime": 1520718319,
+                "epoch": null,
+                "version": "29",
+                "release": "0.3",
+                "arch": "noarch",
+                "payloadhash": "d439faaa81195ce7b5e9d346b0ad83d0",
+                "size": 9268
+            },
+            {
+                "name": "setup",
+                "buildtime": 1519319052,
+                "epoch": null,
+                "version": "2.11.3",
+                "release": "1.fc29",
+                "arch": "noarch",
+                "payloadhash": "44e828f752e77f677ba6466f5afd15b3",
+                "size": 720488
+            },
+            {
+                "name": "basesystem",
+                "buildtime": 1517974780,
+                "epoch": null,
+                "version": "11",
+                "release": "5.fc28",
+                "arch": "noarch",
+                "payloadhash": "9a4682815de24f51b21232b086db3535",
+                "size": 0
+            },
+            {
+                "name": "langpacks-en",
+                "buildtime": 1518065685,
+                "epoch": null,
+                "version": "1.0",
+                "release": "12.fc28",
+                "arch": "noarch",
+                "payloadhash": "926a126cefbdaad1bf20a46984fd5891",
+                "size": 400
+            },
+            {
+                "name": "libgcc",
+                "buildtime": 1520781488,
+                "epoch": null,
+                "version": "8.0.1",
+                "release": "0.17.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "c0b4778c2d7a2ecd102a4564d7b31436",
+                "size": 217560
+            },
+            {
+                "name": "libselinux",
+                "buildtime": 1518171647,
+                "epoch": null,
+                "version": "2.7",
+                "release": "11.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "3a6f5d2459f25db5e1e7b934e2f86851",
+                "size": 217916
+            },
+            {
+                "name": "ncurses-libs",
+                "buildtime": 1519660617,
+                "epoch": null,
+                "version": "6.1",
+                "release": "4.20180224.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "f12828b27563794642360dce52338a1f",
+                "size": 829272
+            },
+            {
+                "name": "glibc",
+                "buildtime": 1520607705,
+                "epoch": null,
+                "version": "2.27.9000",
+                "release": "8.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "960cf24da47d097b88181b3b433498b7",
+                "size": 11940293
+            },
+            {
+                "name": "libsepol",
+                "buildtime": 1518088873,
+                "epoch": null,
+                "version": "2.7",
+                "release": "4.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "072fd3199138edba28c782f25cf86a8b",
+                "size": 695956
+            },
+            {
+                "name": "glibc-langpack-en",
+                "buildtime": 1520607705,
+                "epoch": null,
+                "version": "2.27.9000",
+                "release": "8.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "6c937d483c57db1626ef0a671c73a9c2",
+                "size": 6263599
+            },
+            {
+                "name": "xz-libs",
+                "buildtime": 1518245225,
+                "epoch": null,
+                "version": "5.2.3",
+                "release": "7.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "bd5f2bb78aa98df8a0b715f808648e97",
+                "size": 158350
+            },
+            {
+                "name": "info",
+                "buildtime": 1518545504,
+                "epoch": null,
+                "version": "6.5",
+                "release": "3.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "4c3454b688893dd7878d78ea57b97a42",
+                "size": 345769
+            },
+            {
+                "name": "libdb",
+                "buildtime": 1518078854,
+                "epoch": null,
+                "version": "5.3.28",
+                "release": "30.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "fb0b181b1c307a918ea86cf9ddd457e7",
+                "size": 1687040
+            },
+            {
+                "name": "elfutils-libelf",
+                "buildtime": 1501756466,
+                "epoch": null,
+                "version": "0.170",
+                "release": "1.fc27",
+                "arch": "armv7hl",
+                "payloadhash": "a8914a3e42cf9611a99f3da33893b462",
+                "size": 927695
+            },
+            {
+                "name": "expat",
+                "buildtime": 1517997879,
+                "epoch": null,
+                "version": "2.2.5",
+                "release": "3.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "5e8344e5ac4be27a0e5b6255fbd17a44",
+                "size": 260476
+            },
+            {
+                "name": "libcom_err",
+                "buildtime": 1520246806,
+                "epoch": null,
+                "version": "1.43.9",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "a0e2ee03a871fe116939d3b0ea538b1b",
+                "size": 56709
+            },
+            {
+                "name": "lua-libs",
+                "buildtime": 1518535806,
+                "epoch": null,
+                "version": "5.3.4",
+                "release": "10.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "0bc0a28fc5bde8b88595e6fe04fbe8df",
+                "size": 202252
+            },
+            {
+                "name": "libgcrypt",
+                "buildtime": 1517932125,
+                "epoch": null,
+                "version": "1.8.2",
+                "release": "2.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "77f16875570d4556390eb5bcc77d4262",
+                "size": 926504
+            },
+            {
+                "name": "libxml2",
+                "buildtime": 1519493803,
+                "epoch": null,
+                "version": "2.9.7",
+                "release": "4.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "0200bf2b29b31963325dc22e1a34611d",
+                "size": 1525002
+            },
+            {
+                "name": "libacl",
+                "buildtime": 1517969836,
+                "epoch": null,
+                "version": "2.2.52",
+                "release": "20.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "26d17c2c5c8995cfc56f35f076244001",
+                "size": 46300
+            },
+            {
+                "name": "sed",
+                "buildtime": 1520517037,
+                "epoch": null,
+                "version": "4.4",
+                "release": "7.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "1ca9868211802f5c626baeda938e345e",
+                "size": 725714
+            },
+            {
+                "name": "libmount",
+                "buildtime": 1519160814,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "60863c9eeeb303831fe6c7840d796263",
+                "size": 366098
+            },
+            {
+                "name": "libffi",
+                "buildtime": 1518079502,
+                "epoch": null,
+                "version": "3.1",
+                "release": "16.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "b12e567e85a20b589bbedc3140ab9d69",
+                "size": 49716
+            },
+            {
+                "name": "libunistring",
+                "buildtime": 1519895983,
+                "epoch": null,
+                "version": "0.9.9",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "719eb7954b9262fcb25bee67dd234517",
+                "size": 1689128
+            },
+            {
+                "name": "libcap-ng",
+                "buildtime": 1518027027,
+                "epoch": null,
+                "version": "0.7.9",
+                "release": "1.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "55cdaf652dcfa7bda41d7df300ad45de",
+                "size": 45998
+            },
+            {
+                "name": "lz4-libs",
+                "buildtime": 1518171911,
+                "epoch": null,
+                "version": "1.8.1.2",
+                "release": "4.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "93b5fb2cbd51fd0389e24e647167723e",
+                "size": 91767
+            },
+            {
+                "name": "elfutils-libs",
+                "buildtime": 1501756466,
+                "epoch": null,
+                "version": "0.170",
+                "release": "1.fc27",
+                "arch": "armv7hl",
+                "payloadhash": "b75a9fb9067bfac56226087c6504ecf2",
+                "size": 646335
+            },
+            {
+                "name": "sqlite-libs",
+                "buildtime": 1518186902,
+                "epoch": null,
+                "version": "3.22.0",
+                "release": "3.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "ab77ec8af958101472d806fe5ee6964e",
+                "size": 945899
+            },
+            {
+                "name": "keyutils-libs",
+                "buildtime": 1518170515,
+                "epoch": null,
+                "version": "1.5.10",
+                "release": "6.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "42a1840c933bf0e54e085e5063da7c81",
+                "size": 42706
+            },
+            {
+                "name": "grep",
+                "buildtime": 1518034876,
+                "epoch": null,
+                "version": "3.1",
+                "release": "5.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "d8ff5e4613d7db81f591869abb31c4d9",
+                "size": 796197
+            },
+            {
+                "name": "glib2",
+                "buildtime": 1518026326,
+                "epoch": null,
+                "version": "2.55.2",
+                "release": "3.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "8e29a151e55682fe34246748b11ee4d2",
+                "size": 11767886
+            },
+            {
+                "name": "dbus-libs",
+                "buildtime": 1509376574,
+                "epoch": 1,
+                "version": "1.12.0",
+                "release": "1.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "d4328f1d1dee064a74aadbbccbde2cb2",
+                "size": 305152
+            },
+            {
+                "name": "p11-kit-trust",
+                "buildtime": 1519811271,
+                "epoch": null,
+                "version": "0.23.10",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "86f4cb89d5b71e9ac1f3a5b05af91c52",
+                "size": 374537
+            },
+            {
+                "name": "openssl-libs",
+                "buildtime": 1519402805,
+                "epoch": 1,
+                "version": "1.1.0g",
+                "release": "6.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "d50ec7083de6ae974699639f78617e8c",
+                "size": 2463395
+            },
+            {
+                "name": "ima-evm-utils",
+                "buildtime": 1520205769,
+                "epoch": null,
+                "version": "1.1",
+                "release": "2.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "5f02e7a10efeca20d2349c7953918cba",
+                "size": 103886
+            },
+            {
+                "name": "libsemanage",
+                "buildtime": 1518171407,
+                "epoch": null,
+                "version": "2.7",
+                "release": "9.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "1042411df466d4eaa2cb5106333dbbd5",
+                "size": 267275
+            },
+            {
+                "name": "libutempter",
+                "buildtime": 1519657884,
+                "epoch": null,
+                "version": "1.1.6",
+                "release": "14.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "92873e0f865b7311a7b9a1d5c7f1d670",
+                "size": 40653
+            },
+            {
+                "name": "mpfr",
+                "buildtime": 1519592574,
+                "epoch": null,
+                "version": "3.1.6",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "3d1b5bc4406383d4469e41a9d6437a1d",
+                "size": 526037
+            },
+            {
+                "name": "gnutls",
+                "buildtime": 1518784804,
+                "epoch": null,
+                "version": "3.6.2",
+                "release": "1.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "1afe0c2050ce696f76e4f5dddc4fa2f3",
+                "size": 2201492
+            },
+            {
+                "name": "gzip",
+                "buildtime": 1519898409,
+                "epoch": null,
+                "version": "1.9",
+                "release": "5.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "0a2e27f0084e9db2c03bc312c6f009f6",
+                "size": 351485
+            },
+            {
+                "name": "acl",
+                "buildtime": 1517969836,
+                "epoch": null,
+                "version": "2.2.52",
+                "release": "20.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "6cceff9aafc28fc89d49e776bd61c882",
+                "size": 185735
+            },
+            {
+                "name": "gdbm",
+                "buildtime": 1518005166,
+                "epoch": 1,
+                "version": "1.14.1",
+                "release": "3.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "48be47d5301c4b789fd61342c26caa03",
+                "size": 439985
+            },
+            {
+                "name": "libksba",
+                "buildtime": 1518082401,
+                "epoch": null,
+                "version": "1.3.5",
+                "release": "7.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "7356936237bacb725916e524b41d8151",
+                "size": 297643
+            },
+            {
+                "name": "kmod-libs",
+                "buildtime": 1518067239,
+                "epoch": null,
+                "version": "25",
+                "release": "2.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "293bbb1e28bdb7365ec9b6254273f1cf",
+                "size": 112116
+            },
+            {
+                "name": "libsss_idmap",
+                "buildtime": 1520609873,
+                "epoch": null,
+                "version": "1.16.1",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "ce9bc6e000267def466691f934355072",
+                "size": 66610
+            },
+            {
+                "name": "libverto",
+                "buildtime": 1519054403,
+                "epoch": null,
+                "version": "0.3.0",
+                "release": "5.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "b5196a0ead6c4e948b22d04214bfd284",
+                "size": 22764
+            },
+            {
+                "name": "gawk",
+                "buildtime": 1519649879,
+                "epoch": null,
+                "version": "4.2.1",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "90cc1e16fb4b0f73c9cdc118c9d02891",
+                "size": 2614198
+            },
+            {
+                "name": "libtirpc",
+                "buildtime": 1520696296,
+                "epoch": null,
+                "version": "1.0.2",
+                "release": "6.rc2.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "09b95ec06b30036eb6b6a72a7fc05e6d",
+                "size": 199959
+            },
+            {
+                "name": "python3-libs",
+                "buildtime": 1519502035,
+                "epoch": null,
+                "version": "3.6.4",
+                "release": "16.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "d4c804760ff8b498798c66a677be9147",
+                "size": 30564391
+            },
+            {
+                "name": "python3-setuptools",
+                "buildtime": 1518176999,
+                "epoch": null,
+                "version": "38.4.0",
+                "release": "3.fc28",
+                "arch": "noarch",
+                "payloadhash": "b2056f264d506df020f5fdf0cba3f92b",
+                "size": 2317599
+            },
+            {
+                "name": "libpwquality",
+                "buildtime": 1518086810,
+                "epoch": null,
+                "version": "1.4.0",
+                "release": "6.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "930d52389c2c9139b928b5db268060a8",
+                "size": 368879
+            },
+            {
+                "name": "python3-six",
+                "buildtime": 1518176999,
+                "epoch": null,
+                "version": "1.11.0",
+                "release": "3.fc28",
+                "arch": "noarch",
+                "payloadhash": "b3e94962b65a8d8073b964d5be7975bb",
+                "size": 100361
+            },
+            {
+                "name": "python3-iniparse",
+                "buildtime": 1518164847,
+                "epoch": null,
+                "version": "0.4",
+                "release": "30.fc28",
+                "arch": "noarch",
+                "payloadhash": "32cce6047f9ec5ae4e993193e3f6bee1",
+                "size": 108880
+            },
+            {
+                "name": "python3-libcomps",
+                "buildtime": 1519839744,
+                "epoch": null,
+                "version": "0.1.8",
+                "release": "12.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "8d3f13abb0f36aa2c2b3057be5365b1b",
+                "size": 110749
+            },
+            {
+                "name": "cyrus-sasl-lib",
+                "buildtime": 1520251401,
+                "epoch": null,
+                "version": "2.1.27",
+                "release": "0.1rc7.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "b3e8b5052efa6c3c0003feb77e50a3ed",
+                "size": 686322
+            },
+            {
+                "name": "libssh",
+                "buildtime": 1520443084,
+                "epoch": null,
+                "version": "0.7.5",
+                "release": "8.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "bffad581223bf4bc0a863f019fc860a4",
+                "size": 468406
+            },
+            {
+                "name": "qrencode-libs",
+                "buildtime": 1518183687,
+                "epoch": null,
+                "version": "3.4.4",
+                "release": "5.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "8393f9f62e985205b9b28d25811dd992",
+                "size": 124153
+            },
+            {
+                "name": "iptables-libs",
+                "buildtime": 1519918797,
+                "epoch": null,
+                "version": "1.6.2",
+                "release": "2.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "b2d36bf426d3a21f5547908f575703a6",
+                "size": 106292
+            },
+            {
+                "name": "libargon2",
+                "buildtime": 1518680549,
+                "epoch": null,
+                "version": "20161029",
+                "release": "4.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "a03372e441ede826de3f27af863a777b",
+                "size": 51347
+            },
+            {
+                "name": "device-mapper-libs",
+                "buildtime": 1518172189,
+                "epoch": null,
+                "version": "1.02.146",
+                "release": "4.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "4f3bcd21af840cfff145fbac22a66ae8",
+                "size": 390719
+            },
+            {
+                "name": "systemd-pam",
+                "buildtime": 1520469879,
+                "epoch": null,
+                "version": "238",
+                "release": "3.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "986d1d094df05fba3db63e5d7552605a",
+                "size": 308980
+            },
+            {
+                "name": "dbus",
+                "buildtime": 1509376574,
+                "epoch": 1,
+                "version": "1.12.0",
+                "release": "1.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "0af83ec7c2a8d1eb754a3ae82043c4f4",
+                "size": 561063
+            },
+            {
+                "name": "python3-PyYAML",
+                "buildtime": 1517966118,
+                "epoch": null,
+                "version": "3.12",
+                "release": "10.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "2ecb2c975915a8a0994d9cafdf6b2764",
+                "size": 638347
+            },
+            {
+                "name": "npth",
+                "buildtime": 1517658962,
+                "epoch": null,
+                "version": "1.5",
+                "release": "4.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "a68f780aa9c275ff9e30c6d8e912eb28",
+                "size": 41977
+            },
+            {
+                "name": "gpgme",
+                "buildtime": 1518034495,
+                "epoch": null,
+                "version": "1.10.0",
+                "release": "3.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "5fe46bfd3c40c0aa8f285863263640bd",
+                "size": 682957
+            },
+            {
+                "name": "libnghttp2",
+                "buildtime": 1519743089,
+                "epoch": null,
+                "version": "1.31.0",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "70e53fd6ae8d876c35147976a48f52dd",
+                "size": 135984
+            },
+            {
+                "name": "libcurl",
+                "buildtime": 1519039814,
+                "epoch": null,
+                "version": "7.58.0",
+                "release": "7.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "8584fa93fc7a767aec6b156b8254bdb6",
+                "size": 504068
+            },
+            {
+                "name": "python3-librepo",
+                "buildtime": 1519225454,
+                "epoch": null,
+                "version": "1.8.1",
+                "release": "7.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "2604ee91760fcf3306dbb7a95bca95db",
+                "size": 167140
+            },
+            {
+                "name": "rpm-plugin-selinux",
+                "buildtime": 1519129958,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "dfb26ead3198db87c4ef9d2e6a595232",
+                "size": 10780
+            },
+            {
+                "name": "rpm",
+                "buildtime": 1519129958,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "197db69235a5d4bb20c8bd3cb38f1f87",
+                "size": 2024328
+            },
+            {
+                "name": "libdnf",
+                "buildtime": 1510053224,
+                "epoch": null,
+                "version": "0.11.1",
+                "release": "3.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "34875682824267b992e9d091cf0a0fb2",
+                "size": 283665
+            },
+            {
+                "name": "rpm-build-libs",
+                "buildtime": 1519129958,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "af44ed143991536d2dad6bd30d3d695b",
+                "size": 158496
+            },
+            {
+                "name": "python3-rpm",
+                "buildtime": 1519129958,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "aef2cd2cd59e69d29aa3189c29882079",
+                "size": 152138
+            },
+            {
+                "name": "dnf",
+                "buildtime": 1518447959,
+                "epoch": null,
+                "version": "2.7.5",
+                "release": "8.fc28",
+                "arch": "noarch",
+                "payloadhash": "b6c3e03723d38a1911efc110ce07dbb4",
+                "size": 1369698
+            },
+            {
+                "name": "deltarpm",
+                "buildtime": 1517989087,
+                "epoch": null,
+                "version": "3.6",
+                "release": "25.fc28",
+                "arch": "armv7hl",
+                "payloadhash": "307e64126995669550121dabf3b0db7d",
+                "size": 202187
+            },
+            {
+                "name": "sssd-client",
+                "buildtime": 1520609873,
+                "epoch": null,
+                "version": "1.16.1",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "4ae2357f095d7fce2633f439ac290ca0",
+                "size": 199294
+            },
+            {
+                "name": "vim-minimal",
+                "buildtime": 1520586687,
+                "epoch": 2,
+                "version": "8.0.1591",
+                "release": "1.fc29",
+                "arch": "armv7hl",
+                "payloadhash": "6c536363e8c671891e467e81de7fc52b",
+                "size": 1058652
+            }
+        ],
+        "logs": [
+            "oz-armhfp.log"
+        ],
+        "task_id": 25643896,
+        "version": "Rawhide",
+        "release": "20180311.n.1",
+        "arch": "armhfp",
+        "name": "Fedora-Container-Base"
+    },
+    "25643894": {
+        "files": [
+            "tdl-aarch64.xml",
+            "fedora-docker-base.ks",
+            "koji-f29-build-25643894-base.ks",
+            "Fedora-Container-Base-Rawhide-20180311.n.1.aarch64.tar.xz"
+        ],
+        "rpmlist": [
+            {
+                "name": "tzdata",
+                "buildtime": 1518228415,
+                "epoch": null,
+                "version": "2018c",
+                "release": "2.fc28",
+                "arch": "noarch",
+                "payloadhash": "5bfd58cce6928d8fbd1ea83a93a9d2b5",
+                "size": 1862388
+            },
+            {
+                "name": "libreport-filesystem",
+                "buildtime": 1520349431,
+                "epoch": null,
+                "version": "2.9.3",
+                "release": "8.fc29",
+                "arch": "aarch64",
+                "payloadhash": "28e5221891151bffc903a259f8da453a",
+                "size": 0
+            },
+            {
+                "name": "fedora-gpg-keys",
+                "buildtime": 1520718319,
+                "epoch": null,
+                "version": "29",
+                "release": "0.3",
+                "arch": "noarch",
+                "payloadhash": "eacfdbcb1daf4b31d30d81226db6de5d",
+                "size": 97235
+            },
+            {
+                "name": "fedora-repos",
+                "buildtime": 1520718319,
+                "epoch": null,
+                "version": "29",
+                "release": "0.3",
+                "arch": "noarch",
+                "payloadhash": "d439faaa81195ce7b5e9d346b0ad83d0",
+                "size": 9268
+            },
+            {
+                "name": "setup",
+                "buildtime": 1519319052,
+                "epoch": null,
+                "version": "2.11.3",
+                "release": "1.fc29",
+                "arch": "noarch",
+                "payloadhash": "44e828f752e77f677ba6466f5afd15b3",
+                "size": 720488
+            },
+            {
+                "name": "basesystem",
+                "buildtime": 1517974780,
+                "epoch": null,
+                "version": "11",
+                "release": "5.fc28",
+                "arch": "noarch",
+                "payloadhash": "9a4682815de24f51b21232b086db3535",
+                "size": 0
+            },
+            {
+                "name": "pcre2",
+                "buildtime": 1519658880,
+                "epoch": null,
+                "version": "10.31",
+                "release": "3.fc29",
+                "arch": "aarch64",
+                "payloadhash": "0ab4ec0eee2ad5edf357bb88508b737e",
+                "size": 631679
+            },
+            {
+                "name": "glibc-minimal-langpack",
+                "buildtime": 1520606394,
+                "epoch": null,
+                "version": "2.27.9000",
+                "release": "8.fc29",
+                "arch": "aarch64",
+                "payloadhash": "ecd2f073a31497f04a4979add59e1805",
+                "size": 0
+            },
+            {
+                "name": "glibc-common",
+                "buildtime": 1520606394,
+                "epoch": null,
+                "version": "2.27.9000",
+                "release": "8.fc29",
+                "arch": "aarch64",
+                "payloadhash": "bd41498ce094f4dd629850a21a454bba",
+                "size": 3737097
+            },
+            {
+                "name": "bash",
+                "buildtime": 1518529875,
+                "epoch": null,
+                "version": "4.4.19",
+                "release": "1.fc28",
+                "arch": "aarch64",
+                "payloadhash": "d987859766153ff3e81bb32cd20bf5ba",
+                "size": 6928098
+            },
+            {
+                "name": "zlib",
+                "buildtime": 1518247519,
+                "epoch": null,
+                "version": "1.2.11",
+                "release": "6.fc28",
+                "arch": "aarch64",
+                "payloadhash": "4d6c5d41a39891b43c6efde2c4c9c2c8",
+                "size": 240039
+            },
+            {
+                "name": "bzip2-libs",
+                "buildtime": 1519898936,
+                "epoch": null,
+                "version": "1.0.6",
+                "release": "27.fc29",
+                "arch": "aarch64",
+                "payloadhash": "d403dd8cfde9bf7ca6ec802a55873e56",
+                "size": 75885
+            },
+            {
+                "name": "libcap",
+                "buildtime": 1519204335,
+                "epoch": null,
+                "version": "2.25",
+                "release": "10.fc29",
+                "arch": "aarch64",
+                "payloadhash": "364174eaa296b23aae0c5a94267928d3",
+                "size": 441117
+            },
+            {
+                "name": "libgpg-error",
+                "buildtime": 1518072834,
+                "epoch": null,
+                "version": "1.27",
+                "release": "5.fc28",
+                "arch": "aarch64",
+                "payloadhash": "95f48a5b97d68416d97fc2b00411ea58",
+                "size": 804226
+            },
+            {
+                "name": "popt",
+                "buildtime": 1518154885,
+                "epoch": null,
+                "version": "1.16",
+                "release": "14.fc28",
+                "arch": "aarch64",
+                "payloadhash": "d4aa58ad00eaa87f0d7ab04a5671dd2d",
+                "size": 143638
+            },
+            {
+                "name": "libxcrypt",
+                "buildtime": 1518857495,
+                "epoch": null,
+                "version": "4.0.0",
+                "release": "5.fc28",
+                "arch": "aarch64",
+                "payloadhash": "5c053f9aaee8e632e685796b4b3e2010",
+                "size": 195212
+            },
+            {
+                "name": "libzstd",
+                "buildtime": 1518248634,
+                "epoch": null,
+                "version": "1.3.3",
+                "release": "3.fc28",
+                "arch": "aarch64",
+                "payloadhash": "db1895e399b26a7f4cb5b5e7934c81dd",
+                "size": 477642
+            },
+            {
+                "name": "libuuid",
+                "buildtime": 1519160653,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "aarch64",
+                "payloadhash": "fa6c5e7a939a9c9cd27ff83b3854b472",
+                "size": 74800
+            },
+            {
+                "name": "readline",
+                "buildtime": 1518183934,
+                "epoch": null,
+                "version": "7.0",
+                "release": "8.fc28",
+                "arch": "aarch64",
+                "payloadhash": "6132d96f3f9b2d0484b3727dcac70059",
+                "size": 603829
+            },
+            {
+                "name": "libattr",
+                "buildtime": 1517973673,
+                "epoch": null,
+                "version": "2.4.47",
+                "release": "23.fc28",
+                "arch": "aarch64",
+                "payloadhash": "bf6d9a876688ce2a3eb5a798b28a9f29",
+                "size": 71053
+            },
+            {
+                "name": "coreutils-single",
+                "buildtime": 1520337914,
+                "epoch": null,
+                "version": "8.29",
+                "release": "6.fc29",
+                "arch": "aarch64",
+                "payloadhash": "b97da668314bc1e9aed938df63ebe470",
+                "size": 1483129
+            },
+            {
+                "name": "libblkid",
+                "buildtime": 1519160653,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "aarch64",
+                "payloadhash": "eb763296d0fabee808c6e5d235f3bcfb",
+                "size": 375736
+            },
+            {
+                "name": "gmp",
+                "buildtime": 1518017465,
+                "epoch": 1,
+                "version": "6.1.2",
+                "release": "7.fc28",
+                "arch": "aarch64",
+                "payloadhash": "062a08600a0c9e3c3e9563333a0124e0",
+                "size": 813835
+            },
+            {
+                "name": "p11-kit",
+                "buildtime": 1519811120,
+                "epoch": null,
+                "version": "0.23.10",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "bca220d19ffba47df04fe1af4266208b",
+                "size": 1418434
+            },
+            {
+                "name": "libidn2",
+                "buildtime": 1518963464,
+                "epoch": null,
+                "version": "2.0.4",
+                "release": "3.fc28",
+                "arch": "aarch64",
+                "payloadhash": "df52b96d1475467acbb043eae06d18e7",
+                "size": 272600
+            },
+            {
+                "name": "audit-libs",
+                "buildtime": 1520683198,
+                "epoch": null,
+                "version": "2.8.3",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "e39035aec4b9b53d3c243a7f13f9ee30",
+                "size": 303108
+            },
+            {
+                "name": "chkconfig",
+                "buildtime": 1517979475,
+                "epoch": null,
+                "version": "1.10",
+                "release": "4.fc28",
+                "arch": "aarch64",
+                "payloadhash": "210c38354585aa872df6349c56900f04",
+                "size": 848791
+            },
+            {
+                "name": "sqlite-libs",
+                "buildtime": 1518186841,
+                "epoch": null,
+                "version": "3.22.0",
+                "release": "3.fc28",
+                "arch": "aarch64",
+                "payloadhash": "e5d5792ce5f93472618397117600dd7a",
+                "size": 1092763
+            },
+            {
+                "name": "keyutils-libs",
+                "buildtime": 1518169625,
+                "epoch": null,
+                "version": "1.5.10",
+                "release": "6.fc28",
+                "arch": "aarch64",
+                "payloadhash": "c09fca3220ee4b016d68f14ede14206f",
+                "size": 96566
+            },
+            {
+                "name": "grep",
+                "buildtime": 1518039588,
+                "epoch": null,
+                "version": "3.1",
+                "release": "5.fc28",
+                "arch": "aarch64",
+                "payloadhash": "6843951d163647533f27a40819d62998",
+                "size": 855429
+            },
+            {
+                "name": "glib2",
+                "buildtime": 1518026150,
+                "epoch": null,
+                "version": "2.55.2",
+                "release": "3.fc28",
+                "arch": "aarch64",
+                "payloadhash": "287db82b6aaca5400e7b491b3756265c",
+                "size": 12772978
+            },
+            {
+                "name": "dbus-libs",
+                "buildtime": 1509376487,
+                "epoch": 1,
+                "version": "1.12.0",
+                "release": "1.fc28",
+                "arch": "aarch64",
+                "payloadhash": "99026e7cd8002faa9fadd4cbf389f1fe",
+                "size": 432488
+            },
+            {
+                "name": "p11-kit-trust",
+                "buildtime": 1519811120,
+                "epoch": null,
+                "version": "0.23.10",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "6cd1e0efca33da0b164313e190828ddc",
+                "size": 558081
+            },
+            {
+                "name": "openssl-libs",
+                "buildtime": 1519402614,
+                "epoch": 1,
+                "version": "1.1.0g",
+                "release": "6.fc29",
+                "arch": "aarch64",
+                "payloadhash": "f85deff61f8cd2f0bd60195a0c89d6cd",
+                "size": 3290547
+            },
+            {
+                "name": "ima-evm-utils",
+                "buildtime": 1520205653,
+                "epoch": null,
+                "version": "1.1",
+                "release": "2.fc29",
+                "arch": "aarch64",
+                "payloadhash": "2d97753b43a2b1e381cce223e9c11f7d",
+                "size": 179642
+            },
+            {
+                "name": "libsemanage",
+                "buildtime": 1518170246,
+                "epoch": null,
+                "version": "2.7",
+                "release": "9.fc28",
+                "arch": "aarch64",
+                "payloadhash": "376dbae956fb961692b17c515f0cdd60",
+                "size": 323711
+            },
+            {
+                "name": "libutempter",
+                "buildtime": 1519657867,
+                "epoch": null,
+                "version": "1.1.6",
+                "release": "14.fc29",
+                "arch": "aarch64",
+                "payloadhash": "4a05050516a1f5d0d5fa2bc1eaf5bcd8",
+                "size": 164925
+            },
+            {
+                "name": "mpfr",
+                "buildtime": 1519592538,
+                "epoch": null,
+                "version": "3.1.6",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "bd5a9c442623316e74c0a2c1472263b6",
+                "size": 639257
+            },
+            {
+                "name": "gnutls",
+                "buildtime": 1518784353,
+                "epoch": null,
+                "version": "3.6.2",
+                "release": "1.fc28",
+                "arch": "aarch64",
+                "payloadhash": "b3075c4aeb180ab6c3cda4d329ba14a2",
+                "size": 2398812
+            },
+            {
+                "name": "gzip",
+                "buildtime": 1519898373,
+                "epoch": null,
+                "version": "1.9",
+                "release": "5.fc29",
+                "arch": "aarch64",
+                "payloadhash": "ee7f06e28da1add266c3d9082f01aeea",
+                "size": 402045
+            },
+            {
+                "name": "acl",
+                "buildtime": 1517968720,
+                "epoch": null,
+                "version": "2.2.52",
+                "release": "20.fc28",
+                "arch": "aarch64",
+                "payloadhash": "813b93e46eeb1179e2eabdaa11e46212",
+                "size": 323823
+            },
+            {
+                "name": "gdbm",
+                "buildtime": 1518001240,
+                "epoch": 1,
+                "version": "1.14.1",
+                "release": "3.fc28",
+                "arch": "aarch64",
+                "payloadhash": "a3468456263cfb355fc0208b6de5a735",
+                "size": 673405
+            },
+            {
+                "name": "libksba",
+                "buildtime": 1518074266,
+                "epoch": null,
+                "version": "1.3.5",
+                "release": "7.fc28",
+                "arch": "aarch64",
+                "payloadhash": "8ce6b02b33a4ffd855bbf1bb1aaf9518",
+                "size": 372439
+            },
+            {
+                "name": "kmod-libs",
+                "buildtime": 1518061039,
+                "epoch": null,
+                "version": "25",
+                "release": "2.fc28",
+                "arch": "aarch64",
+                "payloadhash": "d222b581db7bd1a089c04a66ed83abb5",
+                "size": 166336
+            },
+            {
+                "name": "elfutils-default-yama-scope",
+                "buildtime": 1501756032,
+                "epoch": null,
+                "version": "0.170",
+                "release": "1.fc27",
+                "arch": "noarch",
+                "payloadhash": "44f61862c239a990fbcb063fb447714d",
+                "size": 1810
+            },
+            {
+                "name": "libsss_idmap",
+                "buildtime": 1520610824,
+                "epoch": null,
+                "version": "1.16.1",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "5d937941689b3c80a22ed495b2c3993e",
+                "size": 112318
+            },
+            {
+                "name": "libverto",
+                "buildtime": 1519054379,
+                "epoch": null,
+                "version": "0.3.0",
+                "release": "5.fc28",
+                "arch": "aarch64",
+                "payloadhash": "21745dd0116b1fef3222201251fd6e0a",
+                "size": 72588
+            },
+            {
+                "name": "gawk",
+                "buildtime": 1519649723,
+                "epoch": null,
+                "version": "4.2.1",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "64e6940dad2749fd491eb18702798307",
+                "size": 3470046
+            },
+            {
+                "name": "libtirpc",
+                "buildtime": 1520696274,
+                "epoch": null,
+                "version": "1.0.2",
+                "release": "6.rc2.fc29",
+                "arch": "aarch64",
+                "payloadhash": "5febb521c1738fbcf962131c2c0ffe03",
+                "size": 235199
+            },
+            {
+                "name": "python3-libs",
+                "buildtime": 1519500895,
+                "epoch": null,
+                "version": "3.6.4",
+                "release": "16.fc29",
+                "arch": "aarch64",
+                "payloadhash": "cd1105153e84d3303fef7235210266cc",
+                "size": 34341682
+            },
+            {
+                "name": "python3-setuptools",
+                "buildtime": 1518176999,
+                "epoch": null,
+                "version": "38.4.0",
+                "release": "3.fc28",
+                "arch": "noarch",
+                "payloadhash": "b2056f264d506df020f5fdf0cba3f92b",
+                "size": 2317599
+            },
+            {
+                "name": "libpwquality",
+                "buildtime": 1518078671,
+                "epoch": null,
+                "version": "1.4.0",
+                "release": "6.fc28",
+                "arch": "aarch64",
+                "payloadhash": "4c7cc31d4fe7fe226e3cbbdc4c2b5299",
+                "size": 596727
+            },
+            {
+                "name": "util-linux",
+                "buildtime": 1519160653,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "aarch64",
+                "payloadhash": "827948860d93f7653fde8a96684a9e50",
+                "size": 14981920
+            },
+            {
+                "name": "python3-iniparse",
+                "buildtime": 1518164847,
+                "epoch": null,
+                "version": "0.4",
+                "release": "30.fc28",
+                "arch": "noarch",
+                "payloadhash": "32cce6047f9ec5ae4e993193e3f6bee1",
+                "size": 108880
+            },
+            {
+                "name": "python3-libcomps",
+                "buildtime": 1519839764,
+                "epoch": null,
+                "version": "0.1.8",
+                "release": "12.fc29",
+                "arch": "aarch64",
+                "payloadhash": "ca8289c49389dceb3cdd12c82a76f052",
+                "size": 161483
+            },
+            {
+                "name": "cyrus-sasl-lib",
+                "buildtime": 1520251386,
+                "epoch": null,
+                "version": "2.1.27",
+                "release": "0.1rc7.fc29",
+                "arch": "aarch64",
+                "payloadhash": "d250ed69fac0467e4c14f513ff2e949f",
+                "size": 932130
+            },
+            {
+                "name": "libssh",
+                "buildtime": 1520442766,
+                "epoch": null,
+                "version": "0.7.5",
+                "release": "8.fc29",
+                "arch": "aarch64",
+                "payloadhash": "4dddcefce480ca72d91b52d19e1c076b",
+                "size": 602754
+            },
+            {
+                "name": "qrencode-libs",
+                "buildtime": 1518180093,
+                "epoch": null,
+                "version": "3.4.4",
+                "release": "5.fc28",
+                "arch": "aarch64",
+                "payloadhash": "f91056f48a23be33908c4dbb94577a89",
+                "size": 149525
+            },
+            {
+                "name": "iptables-libs",
+                "buildtime": 1519918738,
+                "epoch": null,
+                "version": "1.6.2",
+                "release": "2.fc29",
+                "arch": "aarch64",
+                "payloadhash": "c80edd4bb23209e3efc9104fb26ee832",
+                "size": 277224
+            },
+            {
+                "name": "libargon2",
+                "buildtime": 1518680517,
+                "epoch": null,
+                "version": "20161029",
+                "release": "4.fc28",
+                "arch": "aarch64",
+                "payloadhash": "05831dd7ad9fd9e697cdc529fcb8314e",
+                "size": 88983
+            },
+            {
+                "name": "device-mapper-libs",
+                "buildtime": 1518170647,
+                "epoch": null,
+                "version": "1.02.146",
+                "release": "4.fc28",
+                "arch": "aarch64",
+                "payloadhash": "d4ac26c565f5894e9678983b266067a5",
+                "size": 462815
+            },
+            {
+                "name": "systemd-pam",
+                "buildtime": 1520468385,
+                "epoch": null,
+                "version": "238",
+                "release": "3.fc29",
+                "arch": "aarch64",
+                "payloadhash": "10633812171172b524b680374bc00e10",
+                "size": 361752
+            },
+            {
+                "name": "dbus",
+                "buildtime": 1509376487,
+                "epoch": 1,
+                "version": "1.12.0",
+                "release": "1.fc28",
+                "arch": "aarch64",
+                "payloadhash": "01cca442690ee40d328c6610149ca56a",
+                "size": 1029755
+            },
+            {
+                "name": "python3-PyYAML",
+                "buildtime": 1517966094,
+                "epoch": null,
+                "version": "3.12",
+                "release": "10.fc28",
+                "arch": "aarch64",
+                "payloadhash": "cb7b4c8182e1f31b322108e204b16e96",
+                "size": 677063
+            },
+            {
+                "name": "npth",
+                "buildtime": 1517658957,
+                "epoch": null,
+                "version": "1.5",
+                "release": "4.fc28",
+                "arch": "aarch64",
+                "payloadhash": "bf01a9fca8d698bcc9c4f40b54485333",
+                "size": 95925
+            },
+            {
+                "name": "gpgme",
+                "buildtime": 1518038619,
+                "epoch": null,
+                "version": "1.10.0",
+                "release": "3.fc28",
+                "arch": "aarch64",
+                "payloadhash": "d8eed98bf4bcebd5e3d0bb6c2b7441ef",
+                "size": 769481
+            },
+            {
+                "name": "libnghttp2",
+                "buildtime": 1519742903,
+                "epoch": null,
+                "version": "1.31.0",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "2a852597bdf5a3c4a750f5beba8386bf",
+                "size": 218476
+            },
+            {
+                "name": "librepo",
+                "buildtime": 1519225203,
+                "epoch": null,
+                "version": "1.8.1",
+                "release": "7.fc29",
+                "arch": "aarch64",
+                "payloadhash": "7ec965e252699cde98b52fa6cdae16b6",
+                "size": 238088
+            },
+            {
+                "name": "curl",
+                "buildtime": 1519039706,
+                "epoch": null,
+                "version": "7.58.0",
+                "release": "7.fc28",
+                "arch": "aarch64",
+                "payloadhash": "c403c71983208505c6db73016ad41caf",
+                "size": 737773
+            },
+            {
+                "name": "rpm-libs",
+                "buildtime": 1519129880,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "aarch64",
+                "payloadhash": "d7b0f3d2626bee3b89d1cb7d431adb3d",
+                "size": 773656
+            },
+            {
+                "name": "libsolv",
+                "buildtime": 1519846113,
+                "epoch": null,
+                "version": "0.6.33",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "30ecb4bbf9977d4eef5d5fa5dc3cd807",
+                "size": 827772
+            },
+            {
+                "name": "python3-hawkey",
+                "buildtime": 1510053150,
+                "epoch": null,
+                "version": "0.11.1",
+                "release": "3.fc28",
+                "arch": "aarch64",
+                "payloadhash": "ea7bbe92f9abf4c28b722dd0a4fdfc56",
+                "size": 263627
+            },
+            {
+                "name": "rpm-sign-libs",
+                "buildtime": 1519129880,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "aarch64",
+                "payloadhash": "abb4c0613affa50fbfe9742f1d221640",
+                "size": 69064
+            },
+            {
+                "name": "python3-dnf",
+                "buildtime": 1518447959,
+                "epoch": null,
+                "version": "2.7.5",
+                "release": "8.fc28",
+                "arch": "noarch",
+                "payloadhash": "78dd1942420a7e4e06c9ea579d9ade37",
+                "size": 2025971
+            },
+            {
+                "name": "dnf-yum",
+                "buildtime": 1518447959,
+                "epoch": null,
+                "version": "2.7.5",
+                "release": "8.fc28",
+                "arch": "noarch",
+                "payloadhash": "5e7e2983513eccd4eb1eb9ccf8a32822",
+                "size": 738
+            },
+            {
+                "name": "rpm-plugin-systemd-inhibit",
+                "buildtime": 1519129880,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "aarch64",
+                "payloadhash": "3e3cc6d24ccb4be45a334a3c852074b8",
+                "size": 69556
+            },
+            {
+                "name": "cracklib-dicts",
+                "buildtime": 1519215708,
+                "epoch": null,
+                "version": "2.9.6",
+                "release": "13.fc29",
+                "arch": "aarch64",
+                "payloadhash": "3f53ec17a4c175001cf8af63b8d8528b",
+                "size": 9813249
+            },
+            {
+                "name": "vim-minimal",
+                "buildtime": 1520586465,
+                "epoch": 2,
+                "version": "8.0.1591",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "3581224092c2754f6b864d0fcd5d3912",
+                "size": 1217460
+            },
+            {
+                "name": "glibc-langpack-en",
+                "buildtime": 1520606394,
+                "epoch": null,
+                "version": "2.27.9000",
+                "release": "8.fc29",
+                "arch": "aarch64",
+                "payloadhash": "13646fe31f138216cc183688a581524e",
+                "size": 6263599
+            },
+            {
+                "name": "rootfiles",
+                "buildtime": 1518186661,
+                "epoch": null,
+                "version": "8.1",
+                "release": "22.fc28",
+                "arch": "noarch",
+                "payloadhash": "2f9c0518edf47a80c269222c354f2a70",
+                "size": 599
+            },
+            {
+                "name": "libgcc",
+                "buildtime": 1520759878,
+                "epoch": null,
+                "version": "8.0.1",
+                "release": "0.17.fc29",
+                "arch": "aarch64",
+                "payloadhash": "35f761a15375aca2922cac35bc9b3d28",
+                "size": 226752
+            },
+            {
+                "name": "publicsuffix-list-dafsa",
+                "buildtime": 1519778433,
+                "epoch": null,
+                "version": "20180223",
+                "release": "1.fc29",
+                "arch": "noarch",
+                "payloadhash": "e9c5922827f191a6c54c2268c952287d",
+                "size": 54665
+            },
+            {
+                "name": "dnf-conf",
+                "buildtime": 1518447959,
+                "epoch": null,
+                "version": "2.7.5",
+                "release": "8.fc28",
+                "arch": "noarch",
+                "payloadhash": "753f7cdc848e847157db8fb73d1cd634",
+                "size": 33052
+            },
+            {
+                "name": "fedora-repos-rawhide",
+                "buildtime": 1520718319,
+                "epoch": null,
+                "version": "29",
+                "release": "0.3",
+                "arch": "noarch",
+                "payloadhash": "1ed982988d88b9d060d87d9786cdf883",
+                "size": 4276
+            },
+            {
+                "name": "fedora-release",
+                "buildtime": 1519147449,
+                "epoch": null,
+                "version": "29",
+                "release": "0.1",
+                "arch": "noarch",
+                "payloadhash": "916d9ecc865b576d8d78443cca0e4023",
+                "size": 11823
+            },
+            {
+                "name": "filesystem",
+                "buildtime": 1519147875,
+                "epoch": null,
+                "version": "3.8",
+                "release": "3.fc28",
+                "arch": "aarch64",
+                "payloadhash": "6c0fee32a71582ee30bac7ef7392725a",
+                "size": 0
+            },
+            {
+                "name": "ncurses-base",
+                "buildtime": 1519659992,
+                "epoch": null,
+                "version": "6.1",
+                "release": "4.20180224.fc29",
+                "arch": "noarch",
+                "payloadhash": "ac250770973dbd798aa310f9982aa465",
+                "size": 290089
+            },
+            {
+                "name": "libselinux",
+                "buildtime": 1518170337,
+                "epoch": null,
+                "version": "2.7",
+                "release": "11.fc28",
+                "arch": "aarch64",
+                "payloadhash": "a3b1487abb47fdadc9d69ac0f023a400",
+                "size": 294552
+            },
+            {
+                "name": "ncurses-libs",
+                "buildtime": 1519660289,
+                "epoch": null,
+                "version": "6.1",
+                "release": "4.20180224.fc29",
+                "arch": "aarch64",
+                "payloadhash": "b19c0a78bc010a19effff3f42cd95a2e",
+                "size": 1355224
+            },
+            {
+                "name": "glibc",
+                "buildtime": 1520606394,
+                "epoch": null,
+                "version": "2.27.9000",
+                "release": "8.fc29",
+                "arch": "aarch64",
+                "payloadhash": "2fb403900a465e0343c9868c8b5076d5",
+                "size": 27667577
+            },
+            {
+                "name": "libsepol",
+                "buildtime": 1518080388,
+                "epoch": null,
+                "version": "2.7",
+                "release": "4.fc28",
+                "arch": "aarch64",
+                "payloadhash": "dd3b87fd9bce2d41fa64bd7587a79c70",
+                "size": 788256
+            },
+            {
+                "name": "xz-libs",
+                "buildtime": 1518245111,
+                "epoch": null,
+                "version": "5.2.3",
+                "release": "7.fc28",
+                "arch": "aarch64",
+                "payloadhash": "a17f3b00ec5da758d5989df6e30bf1eb",
+                "size": 226454
+            },
+            {
+                "name": "info",
+                "buildtime": 1518545375,
+                "epoch": null,
+                "version": "6.5",
+                "release": "3.fc28",
+                "arch": "aarch64",
+                "payloadhash": "d072f6fd3c8d457f9046216082ff9770",
+                "size": 446257
+            },
+            {
+                "name": "libdb",
+                "buildtime": 1518071335,
+                "epoch": null,
+                "version": "5.3.28",
+                "release": "30.fc28",
+                "arch": "aarch64",
+                "payloadhash": "346990b692a1246cf0a08c3306c3d620",
+                "size": 1845568
+            },
+            {
+                "name": "elfutils-libelf",
+                "buildtime": 1501756366,
+                "epoch": null,
+                "version": "0.170",
+                "release": "1.fc27",
+                "arch": "aarch64",
+                "payloadhash": "fff23d78df1956bb033d8a0b2fe715f8",
+                "size": 973203
+            },
+            {
+                "name": "expat",
+                "buildtime": 1517995049,
+                "epoch": null,
+                "version": "2.2.5",
+                "release": "3.fc28",
+                "arch": "aarch64",
+                "payloadhash": "5758379ec1e965e70d2d76b866c57dd5",
+                "size": 306892
+            },
+            {
+                "name": "libcom_err",
+                "buildtime": 1520246130,
+                "epoch": null,
+                "version": "1.43.9",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "82d59fb83e6946b9a411f64277b3495d",
+                "size": 114793
+            },
+            {
+                "name": "lua-libs",
+                "buildtime": 1518535782,
+                "epoch": null,
+                "version": "5.3.4",
+                "release": "10.fc28",
+                "arch": "aarch64",
+                "payloadhash": "3cab1098aa6b88d6ab10317dbae4b02c",
+                "size": 281104
+            },
+            {
+                "name": "libgcrypt",
+                "buildtime": 1517931902,
+                "epoch": null,
+                "version": "1.8.2",
+                "release": "2.fc28",
+                "arch": "aarch64",
+                "payloadhash": "4834f30533d862dfdc6917050e658541",
+                "size": 931192
+            },
+            {
+                "name": "libxml2",
+                "buildtime": 1519493742,
+                "epoch": null,
+                "version": "2.9.7",
+                "release": "4.fc29",
+                "arch": "aarch64",
+                "payloadhash": "c43229cd024b08a001750604391826eb",
+                "size": 1787434
+            },
+            {
+                "name": "libacl",
+                "buildtime": 1517968720,
+                "epoch": null,
+                "version": "2.2.52",
+                "release": "20.fc28",
+                "arch": "aarch64",
+                "payloadhash": "9ffdbd7ab15ad476a332a7828d41b0b0",
+                "size": 85176
+            },
+            {
+                "name": "sed",
+                "buildtime": 1520516970,
+                "epoch": null,
+                "version": "4.4",
+                "release": "7.fc29",
+                "arch": "aarch64",
+                "payloadhash": "b3a69cf2c26c95c8241c5f2bd5899122",
+                "size": 763918
+            },
+            {
+                "name": "libmount",
+                "buildtime": 1519160653,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "aarch64",
+                "payloadhash": "15ccd78321e6bfb96cb3a64053f7d103",
+                "size": 445930
+            },
+            {
+                "name": "libffi",
+                "buildtime": 1518071929,
+                "epoch": null,
+                "version": "3.1",
+                "release": "16.fc28",
+                "arch": "aarch64",
+                "payloadhash": "cfe273c88c0b172911983a7e640aaafc",
+                "size": 87316
+            },
+            {
+                "name": "libunistring",
+                "buildtime": 1519895978,
+                "epoch": null,
+                "version": "0.9.9",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "6f6d72a4b7126bd8cff65d32d9229815",
+                "size": 1790740
+            },
+            {
+                "name": "libcap-ng",
+                "buildtime": 1518027005,
+                "epoch": null,
+                "version": "0.7.9",
+                "release": "1.fc28",
+                "arch": "aarch64",
+                "payloadhash": "53673d0059c884432653001920411709",
+                "size": 95806
+            },
+            {
+                "name": "lz4-libs",
+                "buildtime": 1518170395,
+                "epoch": null,
+                "version": "1.8.1.2",
+                "release": "4.fc28",
+                "arch": "aarch64",
+                "payloadhash": "61160073e1291f1c13969f1e98641baa",
+                "size": 137351
+            },
+            {
+                "name": "libassuan",
+                "buildtime": 1518069421,
+                "epoch": null,
+                "version": "2.5.1",
+                "release": "3.fc28",
+                "arch": "aarch64",
+                "payloadhash": "193b0b39e30aeb694f2b80805a161e40",
+                "size": 252731
+            },
+            {
+                "name": "libsmartcols",
+                "buildtime": 1519160653,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "aarch64",
+                "payloadhash": "f4615c85b2dd967353bf5126da2a0b30",
+                "size": 308842
+            },
+            {
+                "name": "pcre",
+                "buildtime": 1519635438,
+                "epoch": null,
+                "version": "8.42",
+                "release": "0.2.RC1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "a4ec9e8a886f4af5bcdccff488fd7dcf",
+                "size": 506193
+            },
+            {
+                "name": "systemd-libs",
+                "buildtime": 1520468385,
+                "epoch": null,
+                "version": "238",
+                "release": "3.fc29",
+                "arch": "aarch64",
+                "payloadhash": "ffad3764edee88c42f82e6cfb1de2343",
+                "size": 1833102
+            },
+            {
+                "name": "crypto-policies",
+                "buildtime": 1520340280,
+                "epoch": null,
+                "version": "20180306",
+                "release": "1.gitaea6928.fc29",
+                "arch": "noarch",
+                "payloadhash": "e9532cfbd0a6e00131a4141f6007bc61",
+                "size": 45433
+            },
+            {
+                "name": "libtasn1",
+                "buildtime": 1518081868,
+                "epoch": null,
+                "version": "4.13",
+                "release": "2.fc28",
+                "arch": "aarch64",
+                "payloadhash": "18d9b25c15ce5c8b056069d822bdaa1d",
+                "size": 224381
+            },
+            {
+                "name": "ca-certificates",
+                "buildtime": 1519423833,
+                "epoch": null,
+                "version": "2018.2.22",
+                "release": "3.fc29",
+                "arch": "noarch",
+                "payloadhash": "8633056eb621596418c416f45f5a8327",
+                "size": 974880
+            },
+            {
+                "name": "libarchive",
+                "buildtime": 1517659913,
+                "epoch": null,
+                "version": "3.3.1",
+                "release": "4.fc28",
+                "arch": "aarch64",
+                "payloadhash": "75c9b8da37b9d65861fa7fb1e0a68e6f",
+                "size": 830818
+            },
+            {
+                "name": "libusbx",
+                "buildtime": 1518083038,
+                "epoch": null,
+                "version": "1.0.21",
+                "release": "6.fc28",
+                "arch": "aarch64",
+                "payloadhash": "49220a9b67c3be201c2d4c8115994bba",
+                "size": 178205
+            },
+            {
+                "name": "shadow-utils",
+                "buildtime": 1517913669,
+                "epoch": 2,
+                "version": "4.5",
+                "release": "9.fc28",
+                "arch": "aarch64",
+                "payloadhash": "29692c46675468009791ba7ba29c1e06",
+                "size": 4539358
+            },
+            {
+                "name": "libpsl",
+                "buildtime": 1519779921,
+                "epoch": null,
+                "version": "0.20.1",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "91ab5951a098ed030157075e606ed097",
+                "size": 70228
+            },
+            {
+                "name": "nettle",
+                "buildtime": 1511165800,
+                "epoch": null,
+                "version": "3.4",
+                "release": "1.fc28",
+                "arch": "aarch64",
+                "payloadhash": "e509ec0b76fe329a9245643463f28e5e",
+                "size": 598566
+            },
+            {
+                "name": "libfdisk",
+                "buildtime": 1519160653,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "aarch64",
+                "payloadhash": "5334e3a84fd591f5d754669f49aed7e5",
+                "size": 519178
+            },
+            {
+                "name": "cracklib",
+                "buildtime": 1519215708,
+                "epoch": null,
+                "version": "2.9.6",
+                "release": "13.fc29",
+                "arch": "aarch64",
+                "payloadhash": "2291a2c3e15dd46a36009e908ab5b86d",
+                "size": 417088
+            },
+            {
+                "name": "libcomps",
+                "buildtime": 1519839764,
+                "epoch": null,
+                "version": "0.1.8",
+                "release": "12.fc29",
+                "arch": "aarch64",
+                "payloadhash": "cafb7b23b83c63d7de621997082600d5",
+                "size": 232319
+            },
+            {
+                "name": "libmetalink",
+                "buildtime": 1518075443,
+                "epoch": null,
+                "version": "0.1.3",
+                "release": "6.fc28",
+                "arch": "aarch64",
+                "payloadhash": "c3ce8a6a36cc2e4f78afb369825af3bd",
+                "size": 74888
+            },
+            {
+                "name": "libdb-utils",
+                "buildtime": 1518071335,
+                "epoch": null,
+                "version": "5.3.28",
+                "release": "30.fc28",
+                "arch": "aarch64",
+                "payloadhash": "8db12157f424b423b47fb6491acb9961",
+                "size": 1084255
+            },
+            {
+                "name": "file-libs",
+                "buildtime": 1517996614,
+                "epoch": null,
+                "version": "5.32",
+                "release": "3.fc28",
+                "arch": "aarch64",
+                "payloadhash": "6eb3270a0a9a7d262d0dc732535d640d",
+                "size": 6160013
+            },
+            {
+                "name": "elfutils-libs",
+                "buildtime": 1501756366,
+                "epoch": null,
+                "version": "0.170",
+                "release": "1.fc27",
+                "arch": "aarch64",
+                "payloadhash": "861c7ba7b9bc867d1a57b73f8c97ed85",
+                "size": 1393015
+            },
+            {
+                "name": "libsss_nss_idmap",
+                "buildtime": 1520610824,
+                "epoch": null,
+                "version": "1.16.1",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "f11a098d4de774d90e7b6e80eb315266",
+                "size": 116286
+            },
+            {
+                "name": "libsigsegv",
+                "buildtime": 1518080704,
+                "epoch": null,
+                "version": "2.11",
+                "release": "5.fc28",
+                "arch": "aarch64",
+                "payloadhash": "df915795add7573ce10c4fd41b88238a",
+                "size": 99178
+            },
+            {
+                "name": "krb5-libs",
+                "buildtime": 1520445979,
+                "epoch": null,
+                "version": "1.16",
+                "release": "8.fc29",
+                "arch": "aarch64",
+                "payloadhash": "a9942d5594c66f36410c4cfdfbada757",
+                "size": 2530936
+            },
+            {
+                "name": "libnsl2",
+                "buildtime": 1518190082,
+                "epoch": null,
+                "version": "1.2.0",
+                "release": "1.fc28",
+                "arch": "aarch64",
+                "payloadhash": "92e5eec22adf9568fa1b00f0a834726f",
+                "size": 177362
+            },
+            {
+                "name": "python3-pip",
+                "buildtime": 1519312672,
+                "epoch": null,
+                "version": "9.0.1",
+                "release": "16.fc29",
+                "arch": "noarch",
+                "payloadhash": "2feef52928dec47dca1cd947b3aa5457",
+                "size": 7353328
+            },
+            {
+                "name": "python3",
+                "buildtime": 1519500895,
+                "epoch": null,
+                "version": "3.6.4",
+                "release": "16.fc29",
+                "arch": "aarch64",
+                "payloadhash": "2b380cf5dba5f51e8d108516aeefe31f",
+                "size": 96605
+            },
+            {
+                "name": "pam",
+                "buildtime": 1518114522,
+                "epoch": null,
+                "version": "1.3.0",
+                "release": "10.fc28",
+                "arch": "aarch64",
+                "payloadhash": "1e397dceb0f56945c2c0124b5a8179a3",
+                "size": 5734879
+            },
+            {
+                "name": "python3-six",
+                "buildtime": 1518176999,
+                "epoch": null,
+                "version": "1.11.0",
+                "release": "3.fc28",
+                "arch": "noarch",
+                "payloadhash": "b3e94962b65a8d8073b964d5be7975bb",
+                "size": 100361
+            },
+            {
+                "name": "python3-dateutil",
+                "buildtime": 1518161111,
+                "epoch": 1,
+                "version": "2.6.1",
+                "release": "3.fc28",
+                "arch": "noarch",
+                "payloadhash": "0085c9c36044bdf5ab758d1e255c2939",
+                "size": 595902
+            },
+            {
+                "name": "python3-smartcols",
+                "buildtime": 1518177201,
+                "epoch": null,
+                "version": "0.3.0",
+                "release": "2.fc28",
+                "arch": "aarch64",
+                "payloadhash": "b7fe5db2825b5260c92144fad37ac077",
+                "size": 390901
+            },
+            {
+                "name": "openldap",
+                "buildtime": 1520243555,
+                "epoch": null,
+                "version": "2.4.45",
+                "release": "14.fc29",
+                "arch": "aarch64",
+                "payloadhash": "30c8630fa83ef22bff2245433875c72d",
+                "size": 1037429
+            },
+            {
+                "name": "libseccomp",
+                "buildtime": 1518080534,
+                "epoch": null,
+                "version": "2.3.3",
+                "release": "2.fc28",
+                "arch": "aarch64",
+                "payloadhash": "fdf6b880a9eb4d828dbe4c3029b0a848",
+                "size": 380318
+            },
+            {
+                "name": "libpcap",
+                "buildtime": 1519129230,
+                "epoch": 14,
+                "version": "1.8.1",
+                "release": "9.fc28",
+                "arch": "aarch64",
+                "payloadhash": "002a8e66757a0f4dc1c7352e849a5fe7",
+                "size": 339919
+            },
+            {
+                "name": "json-c",
+                "buildtime": 1520347535,
+                "epoch": null,
+                "version": "0.13.1",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "58e37f018d21d80db79ab35c42589695",
+                "size": 75922
+            },
+            {
+                "name": "device-mapper",
+                "buildtime": 1518170647,
+                "epoch": null,
+                "version": "1.02.146",
+                "release": "4.fc28",
+                "arch": "aarch64",
+                "payloadhash": "bfa23b5a173a1d13f28ffcd565b55924",
+                "size": 440331
+            },
+            {
+                "name": "cryptsetup-libs",
+                "buildtime": 1520428326,
+                "epoch": null,
+                "version": "2.0.2",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "b125753e90a5c0500acd785586a5985e",
+                "size": 1318235
+            },
+            {
+                "name": "systemd",
+                "buildtime": 1520468385,
+                "epoch": null,
+                "version": "238",
+                "release": "3.fc29",
+                "arch": "aarch64",
+                "payloadhash": "88d2a9a6a7cf5d4b7b5b907cbc44482a",
+                "size": 13661167
+            },
+            {
+                "name": "libyaml",
+                "buildtime": 1517672140,
+                "epoch": null,
+                "version": "0.1.7",
+                "release": "5.fc28",
+                "arch": "aarch64",
+                "payloadhash": "d94c4da069cb33385ebf5d4617721a29",
+                "size": 139310
+            },
+            {
+                "name": "python3-modulemd",
+                "buildtime": 1512996876,
+                "epoch": null,
+                "version": "1.3.3",
+                "release": "1.fc28",
+                "arch": "noarch",
+                "payloadhash": "954768a4309b5103741eaee5baccdd8a",
+                "size": 205501
+            },
+            {
+                "name": "gnupg2",
+                "buildtime": 1520008197,
+                "epoch": null,
+                "version": "2.2.5",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "fd4137322f4f76f576bbba7f01d1c3ae",
+                "size": 9730983
+            },
+            {
+                "name": "python3-gpg",
+                "buildtime": 1518038619,
+                "epoch": null,
+                "version": "1.10.0",
+                "release": "3.fc28",
+                "arch": "aarch64",
+                "payloadhash": "8963fa5741742303c888694f6d3f9bd4",
+                "size": 1329715
+            },
+            {
+                "name": "libcurl",
+                "buildtime": 1519039706,
+                "epoch": null,
+                "version": "7.58.0",
+                "release": "7.fc28",
+                "arch": "aarch64",
+                "payloadhash": "a8e1cda895354c01961db8e3deaaf852",
+                "size": 577440
+            },
+            {
+                "name": "python3-librepo",
+                "buildtime": 1519225203,
+                "epoch": null,
+                "version": "1.8.1",
+                "release": "7.fc29",
+                "arch": "aarch64",
+                "payloadhash": "a6f836177d405796c1e88a7800b0abce",
+                "size": 181978
+            },
+            {
+                "name": "rpm-plugin-selinux",
+                "buildtime": 1519129880,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "aarch64",
+                "payloadhash": "cc1cbecef78f0baeec90d7c3db784390",
+                "size": 68848
+            },
+            {
+                "name": "rpm",
+                "buildtime": 1519129880,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "aarch64",
+                "payloadhash": "b0bb7bb100f790724abccaf03f902d85",
+                "size": 2306669
+            },
+            {
+                "name": "libdnf",
+                "buildtime": 1510053150,
+                "epoch": null,
+                "version": "0.11.1",
+                "release": "3.fc28",
+                "arch": "aarch64",
+                "payloadhash": "8594500b7af604083859a0644c91af24",
+                "size": 382389
+            },
+            {
+                "name": "rpm-build-libs",
+                "buildtime": 1519129880,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "aarch64",
+                "payloadhash": "035fa89866154c0523760e9b7f7f2287",
+                "size": 209104
+            },
+            {
+                "name": "python3-rpm",
+                "buildtime": 1519129880,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "aarch64",
+                "payloadhash": "b4891a230305b7286448275118565832",
+                "size": 318230
+            },
+            {
+                "name": "dnf",
+                "buildtime": 1518447959,
+                "epoch": null,
+                "version": "2.7.5",
+                "release": "8.fc28",
+                "arch": "noarch",
+                "payloadhash": "b6c3e03723d38a1911efc110ce07dbb4",
+                "size": 1369698
+            },
+            {
+                "name": "deltarpm",
+                "buildtime": 1517986598,
+                "epoch": null,
+                "version": "3.6",
+                "release": "25.fc28",
+                "arch": "aarch64",
+                "payloadhash": "45ca4c52f6a7745974f054ec17ae15a5",
+                "size": 295151
+            },
+            {
+                "name": "sssd-client",
+                "buildtime": 1520610824,
+                "epoch": null,
+                "version": "1.16.1",
+                "release": "1.fc29",
+                "arch": "aarch64",
+                "payloadhash": "d730960019cdf215f97aab3b0e31ca82",
+                "size": 478178
+            },
+            {
+                "name": "tar",
+                "buildtime": 1518223525,
+                "epoch": 2,
+                "version": "1.30",
+                "release": "3.fc28",
+                "arch": "aarch64",
+                "payloadhash": "152a5d38a0a916c34563cbd40410de14",
+                "size": 2929292
+            },
+            {
+                "name": "diffutils",
+                "buildtime": 1517987458,
+                "epoch": null,
+                "version": "3.6",
+                "release": "4.fc28",
+                "arch": "aarch64",
+                "payloadhash": "6de8d505b4b32a9656a43ef52f65e488",
+                "size": 1485041
+            },
+            {
+                "name": "langpacks-en",
+                "buildtime": 1518065685,
+                "epoch": null,
+                "version": "1.0",
+                "release": "12.fc28",
+                "arch": "noarch",
+                "payloadhash": "926a126cefbdaad1bf20a46984fd5891",
+                "size": 400
+            }
+        ],
+        "logs": [
+            "oz-aarch64.log"
+        ],
+        "task_id": 25643894,
+        "version": "Rawhide",
+        "release": "20180311.n.1",
+        "arch": "aarch64",
+        "name": "Fedora-Container-Base"
+    },
+    "25643900": {
+        "files": [
+            "tdl-x86_64.xml",
+            "fedora-docker-base.ks",
+            "koji-f29-build-25643900-base.ks",
+            "Fedora-Container-Base-Rawhide-20180311.n.1.x86_64.tar.xz"
+        ],
+        "rpmlist": [
+            {
+                "name": "tzdata",
+                "buildtime": 1518228415,
+                "epoch": null,
+                "version": "2018c",
+                "release": "2.fc28",
+                "arch": "noarch",
+                "payloadhash": "5bfd58cce6928d8fbd1ea83a93a9d2b5",
+                "size": 1862388
+            },
+            {
+                "name": "libreport-filesystem",
+                "buildtime": 1520348815,
+                "epoch": null,
+                "version": "2.9.3",
+                "release": "8.fc29",
+                "arch": "x86_64",
+                "payloadhash": "190aa7d48d05497ebe7583798b4be092",
+                "size": 0
+            },
+            {
+                "name": "fedora-gpg-keys",
+                "buildtime": 1520718319,
+                "epoch": null,
+                "version": "29",
+                "release": "0.3",
+                "arch": "noarch",
+                "payloadhash": "eacfdbcb1daf4b31d30d81226db6de5d",
+                "size": 97235
+            },
+            {
+                "name": "fedora-repos",
+                "buildtime": 1520718319,
+                "epoch": null,
+                "version": "29",
+                "release": "0.3",
+                "arch": "noarch",
+                "payloadhash": "d439faaa81195ce7b5e9d346b0ad83d0",
+                "size": 9268
+            },
+            {
+                "name": "setup",
+                "buildtime": 1519319052,
+                "epoch": null,
+                "version": "2.11.3",
+                "release": "1.fc29",
+                "arch": "noarch",
+                "payloadhash": "44e828f752e77f677ba6466f5afd15b3",
+                "size": 720488
+            },
+            {
+                "name": "basesystem",
+                "buildtime": 1517974780,
+                "epoch": null,
+                "version": "11",
+                "release": "5.fc28",
+                "arch": "noarch",
+                "payloadhash": "9a4682815de24f51b21232b086db3535",
+                "size": 0
+            },
+            {
+                "name": "pcre2",
+                "buildtime": 1519658616,
+                "epoch": null,
+                "version": "10.31",
+                "release": "3.fc29",
+                "arch": "x86_64",
+                "payloadhash": "1e38ac7f3295fd258799a41144ccfe23",
+                "size": 637063
+            },
+            {
+                "name": "glibc-minimal-langpack",
+                "buildtime": 1520602848,
+                "epoch": null,
+                "version": "2.27.9000",
+                "release": "8.fc29",
+                "arch": "x86_64",
+                "payloadhash": "4b16fe1ef34070abb9e813e2a121f654",
+                "size": 0
+            },
+            {
+                "name": "glibc-common",
+                "buildtime": 1520602848,
+                "epoch": null,
+                "version": "2.27.9000",
+                "release": "8.fc29",
+                "arch": "x86_64",
+                "payloadhash": "9f155a5ae370b2be5bf1059b7942e4b0",
+                "size": 3587588
+            },
+            {
+                "name": "bash",
+                "buildtime": 1518529724,
+                "epoch": null,
+                "version": "4.4.19",
+                "release": "1.fc28",
+                "arch": "x86_64",
+                "payloadhash": "6cfcbf09adcdddb1216f77e6d781bf95",
+                "size": 6910637
+            },
+            {
+                "name": "zlib",
+                "buildtime": 1518247371,
+                "epoch": null,
+                "version": "1.2.11",
+                "release": "6.fc28",
+                "arch": "x86_64",
+                "payloadhash": "52500e6f76c0c66144d66b7e6af35568",
+                "size": 199719
+            },
+            {
+                "name": "bzip2-libs",
+                "buildtime": 1519898857,
+                "epoch": null,
+                "version": "1.0.6",
+                "release": "27.fc29",
+                "arch": "x86_64",
+                "payloadhash": "3bf491be7d1cf000d4df4be26dddd97a",
+                "size": 76261
+            },
+            {
+                "name": "libcap",
+                "buildtime": 1519204243,
+                "epoch": null,
+                "version": "2.25",
+                "release": "10.fc29",
+                "arch": "x86_64",
+                "payloadhash": "47cf764b2c212a23e19e7a3f8e83bf1d",
+                "size": 114509
+            },
+            {
+                "name": "libgpg-error",
+                "buildtime": 1518073119,
+                "epoch": null,
+                "version": "1.27",
+                "release": "5.fc28",
+                "arch": "x86_64",
+                "payloadhash": "1905f4ca75d7cccfd0eb2905f85614ea",
+                "size": 714874
+            },
+            {
+                "name": "popt",
+                "buildtime": 1518154672,
+                "epoch": null,
+                "version": "1.16",
+                "release": "14.fc28",
+                "arch": "x86_64",
+                "payloadhash": "5a7b62c8ec9969e76d0bb03fa2de3c8c",
+                "size": 127582
+            },
+            {
+                "name": "libxcrypt",
+                "buildtime": 1518857384,
+                "epoch": null,
+                "version": "4.0.0",
+                "release": "5.fc28",
+                "arch": "x86_64",
+                "payloadhash": "6164242f6dd6db18ca3d4278789ca6ec",
+                "size": 196092
+            },
+            {
+                "name": "libzstd",
+                "buildtime": 1518248390,
+                "epoch": null,
+                "version": "1.3.3",
+                "release": "3.fc28",
+                "arch": "x86_64",
+                "payloadhash": "1e438b8274d67742610f8f7dcfb4fed1",
+                "size": 532050
+            },
+            {
+                "name": "libuuid",
+                "buildtime": 1519160453,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "x86_64",
+                "payloadhash": "0d639ceed65b5445f3ea6005bc691a43",
+                "size": 34456
+            },
+            {
+                "name": "readline",
+                "buildtime": 1518183952,
+                "epoch": null,
+                "version": "7.0",
+                "release": "8.fc28",
+                "arch": "x86_64",
+                "payloadhash": "9303cc5c6524f0cebc0ff1b23e2e93f3",
+                "size": 536013
+            },
+            {
+                "name": "libattr",
+                "buildtime": 1517973510,
+                "epoch": null,
+                "version": "2.4.47",
+                "release": "23.fc28",
+                "arch": "x86_64",
+                "payloadhash": "640e11ade084a1cfb554764d7a0ea87e",
+                "size": 22221
+            },
+            {
+                "name": "coreutils-single",
+                "buildtime": 1520337656,
+                "epoch": null,
+                "version": "8.29",
+                "release": "6.fc29",
+                "arch": "x86_64",
+                "payloadhash": "3f946c8a87093924fbdd757ae6e7660f",
+                "size": 1446889
+            },
+            {
+                "name": "libblkid",
+                "buildtime": 1519160453,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "x86_64",
+                "payloadhash": "0d21dda3cb66a2b1978de42da0d328ae",
+                "size": 376104
+            },
+            {
+                "name": "gmp",
+                "buildtime": 1518017115,
+                "epoch": 1,
+                "version": "6.1.2",
+                "release": "7.fc28",
+                "arch": "x86_64",
+                "payloadhash": "602014b65fab8b889447bd3bf2791af0",
+                "size": 802883
+            },
+            {
+                "name": "p11-kit",
+                "buildtime": 1519810864,
+                "epoch": null,
+                "version": "0.23.10",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "8dad17c8454f73613a6c7654c915b68c",
+                "size": 1375722
+            },
+            {
+                "name": "libidn2",
+                "buildtime": 1518963369,
+                "epoch": null,
+                "version": "2.0.4",
+                "release": "3.fc28",
+                "arch": "x86_64",
+                "payloadhash": "65a7ea6be7e06d37a7b32ef95199cadb",
+                "size": 241000
+            },
+            {
+                "name": "audit-libs",
+                "buildtime": 1520683020,
+                "epoch": null,
+                "version": "2.8.3",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "ed757e3a423c3ab4c6276cd6fbd1641d",
+                "size": 291780
+            },
+            {
+                "name": "chkconfig",
+                "buildtime": 1517979378,
+                "epoch": null,
+                "version": "1.10",
+                "release": "4.fc28",
+                "arch": "x86_64",
+                "payloadhash": "f19b3a5e681b99fe7a274bffe69dea84",
+                "size": 787679
+            },
+            {
+                "name": "sqlite-libs",
+                "buildtime": 1518184983,
+                "epoch": null,
+                "version": "3.22.0",
+                "release": "3.fc28",
+                "arch": "x86_64",
+                "payloadhash": "b67ad12f764e2787b6399fbb19712386",
+                "size": 1088683
+            },
+            {
+                "name": "keyutils-libs",
+                "buildtime": 1518169509,
+                "epoch": null,
+                "version": "1.5.10",
+                "release": "6.fc28",
+                "arch": "x86_64",
+                "payloadhash": "8582115f8482e34565d78b8c054fdeaf",
+                "size": 43478
+            },
+            {
+                "name": "grep",
+                "buildtime": 1518034514,
+                "epoch": null,
+                "version": "3.1",
+                "release": "5.fc28",
+                "arch": "x86_64",
+                "payloadhash": "69fffa003ecf55cbae2d265a1db73b9d",
+                "size": 824877
+            },
+            {
+                "name": "glib2",
+                "buildtime": 1518025526,
+                "epoch": null,
+                "version": "2.55.2",
+                "release": "3.fc28",
+                "arch": "x86_64",
+                "payloadhash": "f41f35c14c6d2d59917a1c3f7aae2e1a",
+                "size": 12257098
+            },
+            {
+                "name": "dbus-libs",
+                "buildtime": 1509376238,
+                "epoch": 1,
+                "version": "1.12.0",
+                "release": "1.fc28",
+                "arch": "x86_64",
+                "payloadhash": "e75f2c0a02a55d7592d0d0203f6aa78c",
+                "size": 367072
+            },
+            {
+                "name": "p11-kit-trust",
+                "buildtime": 1519810864,
+                "epoch": null,
+                "version": "0.23.10",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "0c6a4c2e416ea8efafc4ab2a7019b5ea",
+                "size": 494969
+            },
+            {
+                "name": "openssl-libs",
+                "buildtime": 1519402139,
+                "epoch": 1,
+                "version": "1.1.0g",
+                "release": "6.fc29",
+                "arch": "x86_64",
+                "payloadhash": "80b72b1bacafdd8d8b63306172705374",
+                "size": 3439651
+            },
+            {
+                "name": "ima-evm-utils",
+                "buildtime": 1520205520,
+                "epoch": null,
+                "version": "1.1",
+                "release": "2.fc29",
+                "arch": "x86_64",
+                "payloadhash": "aea1d460486b1bc9c26b254b10a5bb8e",
+                "size": 110354
+            },
+            {
+                "name": "libsemanage",
+                "buildtime": 1518169990,
+                "epoch": null,
+                "version": "2.7",
+                "release": "9.fc28",
+                "arch": "x86_64",
+                "payloadhash": "20029d916d8659c6428fbf79b419a307",
+                "size": 318279
+            },
+            {
+                "name": "libutempter",
+                "buildtime": 1519657793,
+                "epoch": null,
+                "version": "1.1.6",
+                "release": "14.fc29",
+                "arch": "x86_64",
+                "payloadhash": "67d1c55e84474a94fffcfde75a8fa737",
+                "size": 50533
+            },
+            {
+                "name": "mpfr",
+                "buildtime": 1519592336,
+                "epoch": null,
+                "version": "3.1.6",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "bef12d9ac70600a0f4bd8de2f7023e57",
+                "size": 589769
+            },
+            {
+                "name": "gnutls",
+                "buildtime": 1518784067,
+                "epoch": null,
+                "version": "3.6.2",
+                "release": "1.fc28",
+                "arch": "x86_64",
+                "payloadhash": "f8b559a5f36badef7576f10448affc6c",
+                "size": 2344596
+            },
+            {
+                "name": "gzip",
+                "buildtime": 1519898259,
+                "epoch": null,
+                "version": "1.9",
+                "release": "5.fc29",
+                "arch": "x86_64",
+                "payloadhash": "26ab60ce54b47e98b4ca3f564553c8c6",
+                "size": 358477
+            },
+            {
+                "name": "acl",
+                "buildtime": 1517968281,
+                "epoch": null,
+                "version": "2.2.52",
+                "release": "20.fc28",
+                "arch": "x86_64",
+                "payloadhash": "f189ec21f1513cae9896bdf492faf854",
+                "size": 193727
+            },
+            {
+                "name": "gdbm",
+                "buildtime": 1518001076,
+                "epoch": 1,
+                "version": "1.14.1",
+                "release": "3.fc28",
+                "arch": "x86_64",
+                "payloadhash": "01c1c9ab5fe791a09a14ce379a7af735",
+                "size": 483917
+            },
+            {
+                "name": "libksba",
+                "buildtime": 1518074227,
+                "epoch": null,
+                "version": "1.3.5",
+                "release": "7.fc28",
+                "arch": "x86_64",
+                "payloadhash": "64f47804b68844f3eaadb64625ecccfc",
+                "size": 340671
+            },
+            {
+                "name": "kmod-libs",
+                "buildtime": 1518060845,
+                "epoch": null,
+                "version": "25",
+                "release": "2.fc28",
+                "arch": "x86_64",
+                "payloadhash": "fa3e05ce583ca814c8523493164d2dd7",
+                "size": 126056
+            },
+            {
+                "name": "elfutils-default-yama-scope",
+                "buildtime": 1501756032,
+                "epoch": null,
+                "version": "0.170",
+                "release": "1.fc27",
+                "arch": "noarch",
+                "payloadhash": "44f61862c239a990fbcb063fb447714d",
+                "size": 1810
+            },
+            {
+                "name": "libsss_idmap",
+                "buildtime": 1520608408,
+                "epoch": null,
+                "version": "1.16.1",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "456f6c6e04e9922a7b5d8699fd377098",
+                "size": 71558
+            },
+            {
+                "name": "libverto",
+                "buildtime": 1519054233,
+                "epoch": null,
+                "version": "0.3.0",
+                "release": "5.fc28",
+                "arch": "x86_64",
+                "payloadhash": "36eca4dbcb08f145085a1f277ad2f2d3",
+                "size": 27708
+            },
+            {
+                "name": "gawk",
+                "buildtime": 1519649380,
+                "epoch": null,
+                "version": "4.2.1",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "e0696874a948e08a91bbf8cb360231f3",
+                "size": 2703782
+            },
+            {
+                "name": "libtirpc",
+                "buildtime": 1520696119,
+                "epoch": null,
+                "version": "1.0.2",
+                "release": "6.rc2.fc29",
+                "arch": "x86_64",
+                "payloadhash": "2850d27cc44b322e5d00d40d0f801467",
+                "size": 241999
+            },
+            {
+                "name": "python3-libs",
+                "buildtime": 1519499221,
+                "epoch": null,
+                "version": "3.6.4",
+                "release": "16.fc29",
+                "arch": "x86_64",
+                "payloadhash": "fa98ceb7e56c0a9969b13b3c761e58a4",
+                "size": 32541913
+            },
+            {
+                "name": "python3-setuptools",
+                "buildtime": 1518176999,
+                "epoch": null,
+                "version": "38.4.0",
+                "release": "3.fc28",
+                "arch": "noarch",
+                "payloadhash": "b2056f264d506df020f5fdf0cba3f92b",
+                "size": 2317599
+            },
+            {
+                "name": "libpwquality",
+                "buildtime": 1518078682,
+                "epoch": null,
+                "version": "1.4.0",
+                "release": "6.fc28",
+                "arch": "x86_64",
+                "payloadhash": "f47664f74fd99564afa91afd758e2bfc",
+                "size": 380327
+            },
+            {
+                "name": "util-linux",
+                "buildtime": 1519160453,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "x86_64",
+                "payloadhash": "fedf04a9d95689e4782ed87e33d93879",
+                "size": 11317094
+            },
+            {
+                "name": "python3-iniparse",
+                "buildtime": 1518164847,
+                "epoch": null,
+                "version": "0.4",
+                "release": "30.fc28",
+                "arch": "noarch",
+                "payloadhash": "32cce6047f9ec5ae4e993193e3f6bee1",
+                "size": 108880
+            },
+            {
+                "name": "python3-libcomps",
+                "buildtime": 1519839522,
+                "epoch": null,
+                "version": "0.1.8",
+                "release": "12.fc29",
+                "arch": "x86_64",
+                "payloadhash": "ae4e775acc0a865192e8a39ca4e860bd",
+                "size": 150115
+            },
+            {
+                "name": "cyrus-sasl-lib",
+                "buildtime": 1520251183,
+                "epoch": null,
+                "version": "2.1.27",
+                "release": "0.1rc7.fc29",
+                "arch": "x86_64",
+                "payloadhash": "859cd7b6fd828fe33fa3628067058add",
+                "size": 724602
+            },
+            {
+                "name": "libssh",
+                "buildtime": 1520442623,
+                "epoch": null,
+                "version": "0.7.5",
+                "release": "8.fc29",
+                "arch": "x86_64",
+                "payloadhash": "f4403b4c0b53d966bd4a1919c9ffb76c",
+                "size": 543642
+            },
+            {
+                "name": "qrencode-libs",
+                "buildtime": 1518179699,
+                "epoch": null,
+                "version": "3.4.4",
+                "release": "5.fc28",
+                "arch": "x86_64",
+                "payloadhash": "d3ff72e3c3ef756417edb9eae5418635",
+                "size": 133589
+            },
+            {
+                "name": "iptables-libs",
+                "buildtime": 1519918629,
+                "epoch": null,
+                "version": "1.6.2",
+                "release": "2.fc29",
+                "arch": "x86_64",
+                "payloadhash": "775584f5668fb77dc7fbc2ed949af6d5",
+                "size": 126088
+            },
+            {
+                "name": "libargon2",
+                "buildtime": 1518680411,
+                "epoch": null,
+                "version": "20161029",
+                "release": "4.fc28",
+                "arch": "x86_64",
+                "payloadhash": "d9c8216ea441839623305e70a78b61c7",
+                "size": 52503
+            },
+            {
+                "name": "device-mapper-libs",
+                "buildtime": 1518170474,
+                "epoch": null,
+                "version": "1.02.146",
+                "release": "4.fc28",
+                "arch": "x86_64",
+                "payloadhash": "4cf5f286085497e8f501275be83da3b1",
+                "size": 410407
+            },
+            {
+                "name": "systemd-pam",
+                "buildtime": 1520467920,
+                "epoch": null,
+                "version": "238",
+                "release": "3.fc29",
+                "arch": "x86_64",
+                "payloadhash": "eed570dda078741485c9093845044561",
+                "size": 360736
+            },
+            {
+                "name": "dbus",
+                "buildtime": 1509376238,
+                "epoch": 1,
+                "version": "1.12.0",
+                "release": "1.fc28",
+                "arch": "x86_64",
+                "payloadhash": "585cd7667066f82b8c2cbe37c791f0c2",
+                "size": 624915
+            },
+            {
+                "name": "python3-PyYAML",
+                "buildtime": 1517965433,
+                "epoch": null,
+                "version": "3.12",
+                "release": "10.fc28",
+                "arch": "x86_64",
+                "payloadhash": "a3112f8ab387b0e42dc4b2b052a8a467",
+                "size": 652735
+            },
+            {
+                "name": "npth",
+                "buildtime": 1517658861,
+                "epoch": null,
+                "version": "1.5",
+                "release": "4.fc28",
+                "arch": "x86_64",
+                "payloadhash": "026afa87b50e9ec9812501188b6fd998",
+                "size": 46949
+            },
+            {
+                "name": "gpgme",
+                "buildtime": 1518033839,
+                "epoch": null,
+                "version": "1.10.0",
+                "release": "3.fc28",
+                "arch": "x86_64",
+                "payloadhash": "ce6089c011ae4f33cc271b726f46db66",
+                "size": 731225
+            },
+            {
+                "name": "libnghttp2",
+                "buildtime": 1519742673,
+                "epoch": null,
+                "version": "1.31.0",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "f66bca07dabaee0c708827ab99e37409",
+                "size": 170300
+            },
+            {
+                "name": "librepo",
+                "buildtime": 1519224849,
+                "epoch": null,
+                "version": "1.8.1",
+                "release": "7.fc29",
+                "arch": "x86_64",
+                "payloadhash": "134364610e09dc16209418c559ac414e",
+                "size": 202288
+            },
+            {
+                "name": "curl",
+                "buildtime": 1519040291,
+                "epoch": null,
+                "version": "7.58.0",
+                "release": "7.fc28",
+                "arch": "x86_64",
+                "payloadhash": "01e93e16d025b2cab1e28979a3a3b196",
+                "size": 706517
+            },
+            {
+                "name": "rpm-libs",
+                "buildtime": 1519129527,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "x86_64",
+                "payloadhash": "9205e95f37fabff613644a1cfb9334a1",
+                "size": 719288
+            },
+            {
+                "name": "libsolv",
+                "buildtime": 1519845973,
+                "epoch": null,
+                "version": "0.6.33",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "6ff35c51ff1c6e68ba4ecf0f7c50c2bd",
+                "size": 830332
+            },
+            {
+                "name": "python3-hawkey",
+                "buildtime": 1510052985,
+                "epoch": null,
+                "version": "0.11.1",
+                "release": "3.fc28",
+                "arch": "x86_64",
+                "payloadhash": "8699eceb6522941c1218010bc2862058",
+                "size": 177651
+            },
+            {
+                "name": "rpm-sign-libs",
+                "buildtime": 1519129527,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "x86_64",
+                "payloadhash": "1907373ab85d9d04d4e07ffec80716c0",
+                "size": 28256
+            },
+            {
+                "name": "python3-dnf",
+                "buildtime": 1518447959,
+                "epoch": null,
+                "version": "2.7.5",
+                "release": "8.fc28",
+                "arch": "noarch",
+                "payloadhash": "78dd1942420a7e4e06c9ea579d9ade37",
+                "size": 2025971
+            },
+            {
+                "name": "dnf-yum",
+                "buildtime": 1518447959,
+                "epoch": null,
+                "version": "2.7.5",
+                "release": "8.fc28",
+                "arch": "noarch",
+                "payloadhash": "5e7e2983513eccd4eb1eb9ccf8a32822",
+                "size": 738
+            },
+            {
+                "name": "rpm-plugin-systemd-inhibit",
+                "buildtime": 1519129527,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "x86_64",
+                "payloadhash": "82adc451c306e9da28bf3ac54d441a17",
+                "size": 12380
+            },
+            {
+                "name": "cracklib-dicts",
+                "buildtime": 1519215624,
+                "epoch": null,
+                "version": "2.9.6",
+                "release": "13.fc29",
+                "arch": "x86_64",
+                "payloadhash": "4b421da75ef3f72a69ea5b73b5582481",
+                "size": 9813249
+            },
+            {
+                "name": "vim-minimal",
+                "buildtime": 1520586055,
+                "epoch": 2,
+                "version": "8.0.1591",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "587465b31a54a71b6a18cc9fde45ee54",
+                "size": 1188372
+            },
+            {
+                "name": "glibc-langpack-en",
+                "buildtime": 1520602848,
+                "epoch": null,
+                "version": "2.27.9000",
+                "release": "8.fc29",
+                "arch": "x86_64",
+                "payloadhash": "a00b5260af0c77ac280e098700a09bd7",
+                "size": 6263599
+            },
+            {
+                "name": "rootfiles",
+                "buildtime": 1518186661,
+                "epoch": null,
+                "version": "8.1",
+                "release": "22.fc28",
+                "arch": "noarch",
+                "payloadhash": "2f9c0518edf47a80c269222c354f2a70",
+                "size": 599
+            },
+            {
+                "name": "libgcc",
+                "buildtime": 1520738638,
+                "epoch": null,
+                "version": "8.0.1",
+                "release": "0.17.fc29",
+                "arch": "x86_64",
+                "payloadhash": "b694fe999bddfe134ba27dfc20e19997",
+                "size": 190304
+            },
+            {
+                "name": "publicsuffix-list-dafsa",
+                "buildtime": 1519778433,
+                "epoch": null,
+                "version": "20180223",
+                "release": "1.fc29",
+                "arch": "noarch",
+                "payloadhash": "e9c5922827f191a6c54c2268c952287d",
+                "size": 54665
+            },
+            {
+                "name": "dnf-conf",
+                "buildtime": 1518447959,
+                "epoch": null,
+                "version": "2.7.5",
+                "release": "8.fc28",
+                "arch": "noarch",
+                "payloadhash": "753f7cdc848e847157db8fb73d1cd634",
+                "size": 33052
+            },
+            {
+                "name": "fedora-repos-rawhide",
+                "buildtime": 1520718319,
+                "epoch": null,
+                "version": "29",
+                "release": "0.3",
+                "arch": "noarch",
+                "payloadhash": "1ed982988d88b9d060d87d9786cdf883",
+                "size": 4276
+            },
+            {
+                "name": "fedora-release",
+                "buildtime": 1519147449,
+                "epoch": null,
+                "version": "29",
+                "release": "0.1",
+                "arch": "noarch",
+                "payloadhash": "916d9ecc865b576d8d78443cca0e4023",
+                "size": 11823
+            },
+            {
+                "name": "filesystem",
+                "buildtime": 1519147766,
+                "epoch": null,
+                "version": "3.8",
+                "release": "3.fc28",
+                "arch": "x86_64",
+                "payloadhash": "0889558061324fa0d6c3b97498a6b08d",
+                "size": 0
+            },
+            {
+                "name": "ncurses-base",
+                "buildtime": 1519659992,
+                "epoch": null,
+                "version": "6.1",
+                "release": "4.20180224.fc29",
+                "arch": "noarch",
+                "payloadhash": "ac250770973dbd798aa310f9982aa465",
+                "size": 290089
+            },
+            {
+                "name": "libselinux",
+                "buildtime": 1518170068,
+                "epoch": null,
+                "version": "2.7",
+                "release": "11.fc28",
+                "arch": "x86_64",
+                "payloadhash": "4447ecffccb03472efd7e56c6795eb71",
+                "size": 252176
+            },
+            {
+                "name": "ncurses-libs",
+                "buildtime": 1519659992,
+                "epoch": null,
+                "version": "6.1",
+                "release": "4.20180224.fc29",
+                "arch": "x86_64",
+                "payloadhash": "1c5edab901239ac28ac6d6a1b8b39814",
+                "size": 1064824
+            },
+            {
+                "name": "glibc",
+                "buildtime": 1520602848,
+                "epoch": null,
+                "version": "2.27.9000",
+                "release": "8.fc29",
+                "arch": "x86_64",
+                "payloadhash": "d6c7eb03d6d9a57edeb375c9f9caaa10",
+                "size": 15185025
+            },
+            {
+                "name": "libsepol",
+                "buildtime": 1518080095,
+                "epoch": null,
+                "version": "2.7",
+                "release": "4.fc28",
+                "arch": "x86_64",
+                "payloadhash": "f34cc2685afc0564cf5be6c5c4095cea",
+                "size": 778648
+            },
+            {
+                "name": "xz-libs",
+                "buildtime": 1518245085,
+                "epoch": null,
+                "version": "5.2.3",
+                "release": "7.fc28",
+                "arch": "x86_64",
+                "payloadhash": "bb5827ae591dad3d9301ccff75242bfa",
+                "size": 188278
+            },
+            {
+                "name": "info",
+                "buildtime": 1518545211,
+                "epoch": null,
+                "version": "6.5",
+                "release": "3.fc28",
+                "arch": "x86_64",
+                "payloadhash": "22a6cd48f32521a30c198fb0c2b878e5",
+                "size": 390945
+            },
+            {
+                "name": "libdb",
+                "buildtime": 1518071205,
+                "epoch": null,
+                "version": "5.3.28",
+                "release": "30.fc28",
+                "arch": "x86_64",
+                "payloadhash": "8c1ce08d80b2ae50f8d9929a56d3f2f1",
+                "size": 1982256
+            },
+            {
+                "name": "elfutils-libelf",
+                "buildtime": 1501756032,
+                "epoch": null,
+                "version": "0.170",
+                "release": "1.fc27",
+                "arch": "x86_64",
+                "payloadhash": "7bfb6ad1276d3ee2c196e702cc7a14f2",
+                "size": 936435
+            },
+            {
+                "name": "expat",
+                "buildtime": 1517994522,
+                "epoch": null,
+                "version": "2.2.5",
+                "release": "3.fc28",
+                "arch": "x86_64",
+                "payloadhash": "9fde9e0f69fd49801da2a6884c1a5f60",
+                "size": 307332
+            },
+            {
+                "name": "libcom_err",
+                "buildtime": 1520245749,
+                "epoch": null,
+                "version": "1.43.9",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "c1a3c66bc388013a9d6ae94b6bf114ca",
+                "size": 61833
+            },
+            {
+                "name": "lua-libs",
+                "buildtime": 1518535664,
+                "epoch": null,
+                "version": "5.3.4",
+                "release": "10.fc28",
+                "arch": "x86_64",
+                "payloadhash": "f0da7c13dd005e9e6082c2064b0a36cd",
+                "size": 253720
+            },
+            {
+                "name": "libgcrypt",
+                "buildtime": 1517931667,
+                "epoch": null,
+                "version": "1.8.2",
+                "release": "2.fc28",
+                "arch": "x86_64",
+                "payloadhash": "7e629f81aa722d7c4265fcf3a109951a",
+                "size": 1292696
+            },
+            {
+                "name": "libxml2",
+                "buildtime": 1519493410,
+                "epoch": null,
+                "version": "2.9.7",
+                "release": "4.fc29",
+                "arch": "x86_64",
+                "payloadhash": "e4229d77c831c21557e21706686b6ef4",
+                "size": 1761226
+            },
+            {
+                "name": "libacl",
+                "buildtime": 1517968281,
+                "epoch": null,
+                "version": "2.2.52",
+                "release": "20.fc28",
+                "arch": "x86_64",
+                "payloadhash": "cd66c9bfa89b51d63e96e89f3c817ba7",
+                "size": 54440
+            },
+            {
+                "name": "sed",
+                "buildtime": 1520516814,
+                "epoch": null,
+                "version": "4.4",
+                "release": "7.fc29",
+                "arch": "x86_64",
+                "payloadhash": "47b21ff33021cef96f745b4ef52ef7d2",
+                "size": 744670
+            },
+            {
+                "name": "libmount",
+                "buildtime": 1519160453,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "x86_64",
+                "payloadhash": "f6c341560be0878d83b9a7945073e031",
+                "size": 415250
+            },
+            {
+                "name": "libffi",
+                "buildtime": 1518072702,
+                "epoch": null,
+                "version": "3.1",
+                "release": "16.fc28",
+                "arch": "x86_64",
+                "payloadhash": "a360a17e7547b6661ab7bdb00fbef011",
+                "size": 55140
+            },
+            {
+                "name": "libunistring",
+                "buildtime": 1519895715,
+                "epoch": null,
+                "version": "0.9.9",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "61ff0062f5a9bcddd640039d59d7b7f9",
+                "size": 1806428
+            },
+            {
+                "name": "libcap-ng",
+                "buildtime": 1518026930,
+                "epoch": null,
+                "version": "0.7.9",
+                "release": "1.fc28",
+                "arch": "x86_64",
+                "payloadhash": "b5e9b3825ed84bc0cccf6fd19e9f5f04",
+                "size": 50918
+            },
+            {
+                "name": "lz4-libs",
+                "buildtime": 1518170283,
+                "epoch": null,
+                "version": "1.8.1.2",
+                "release": "4.fc28",
+                "arch": "x86_64",
+                "payloadhash": "4dccfb6692b54bd995455aba81c6301c",
+                "size": 96655
+            },
+            {
+                "name": "libassuan",
+                "buildtime": 1518069532,
+                "epoch": null,
+                "version": "2.5.1",
+                "release": "3.fc28",
+                "arch": "x86_64",
+                "payloadhash": "cb3ad31e3bdb7c4a6f6486d45ca0a6b1",
+                "size": 196379
+            },
+            {
+                "name": "libsmartcols",
+                "buildtime": 1519160453,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "x86_64",
+                "payloadhash": "1482b1e5b47156e22baedb647ca125d2",
+                "size": 257234
+            },
+            {
+                "name": "pcre",
+                "buildtime": 1519635274,
+                "epoch": null,
+                "version": "8.42",
+                "release": "0.2.RC1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "2548064e3109f8597fb7a62776d2c48c",
+                "size": 515481
+            },
+            {
+                "name": "systemd-libs",
+                "buildtime": 1520467920,
+                "epoch": null,
+                "version": "238",
+                "release": "3.fc29",
+                "arch": "x86_64",
+                "payloadhash": "7d56ca375011cec747fc1a86586b8af2",
+                "size": 1739406
+            },
+            {
+                "name": "crypto-policies",
+                "buildtime": 1520340280,
+                "epoch": null,
+                "version": "20180306",
+                "release": "1.gitaea6928.fc29",
+                "arch": "noarch",
+                "payloadhash": "e9532cfbd0a6e00131a4141f6007bc61",
+                "size": 45433
+            },
+            {
+                "name": "libtasn1",
+                "buildtime": 1518081610,
+                "epoch": null,
+                "version": "4.13",
+                "release": "2.fc28",
+                "arch": "x86_64",
+                "payloadhash": "04014d6ea889d9f818b11950bc2c123e",
+                "size": 167525
+            },
+            {
+                "name": "ca-certificates",
+                "buildtime": 1519423833,
+                "epoch": null,
+                "version": "2018.2.22",
+                "release": "3.fc29",
+                "arch": "noarch",
+                "payloadhash": "8633056eb621596418c416f45f5a8327",
+                "size": 974880
+            },
+            {
+                "name": "libarchive",
+                "buildtime": 1517658672,
+                "epoch": null,
+                "version": "3.3.1",
+                "release": "4.fc28",
+                "arch": "x86_64",
+                "payloadhash": "ef366c4a5a532e07297569fe57520648",
+                "size": 855650
+            },
+            {
+                "name": "libusbx",
+                "buildtime": 1518082869,
+                "epoch": null,
+                "version": "1.0.21",
+                "release": "6.fc28",
+                "arch": "x86_64",
+                "payloadhash": "6dddeb5514b3ce4877aaa19ce5c39821",
+                "size": 145909
+            },
+            {
+                "name": "shadow-utils",
+                "buildtime": 1517913479,
+                "epoch": 2,
+                "version": "4.5",
+                "release": "9.fc28",
+                "arch": "x86_64",
+                "payloadhash": "90a0376aa249e87ca7936948e24c69de",
+                "size": 4024566
+            },
+            {
+                "name": "libpsl",
+                "buildtime": 1519779810,
+                "epoch": null,
+                "version": "0.20.1",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "40ea8f21fe8e664fffc98eedb0f918b0",
+                "size": 66316
+            },
+            {
+                "name": "nettle",
+                "buildtime": 1511165630,
+                "epoch": null,
+                "version": "3.4",
+                "release": "1.fc28",
+                "arch": "x86_64",
+                "payloadhash": "f257e4f1317d1f5543f7bf8439a09adf",
+                "size": 549726
+            },
+            {
+                "name": "libfdisk",
+                "buildtime": 1519160453,
+                "epoch": null,
+                "version": "2.32",
+                "release": "0.2.fc29",
+                "arch": "x86_64",
+                "payloadhash": "6c75202f2b0b89be60e84a89fe329c65",
+                "size": 492538
+            },
+            {
+                "name": "cracklib",
+                "buildtime": 1519215624,
+                "epoch": null,
+                "version": "2.9.6",
+                "release": "13.fc29",
+                "arch": "x86_64",
+                "payloadhash": "a27616f5006ac5da2cdd4fc214a8de8d",
+                "size": 212984
+            },
+            {
+                "name": "libcomps",
+                "buildtime": 1519839522,
+                "epoch": null,
+                "version": "0.1.8",
+                "release": "12.fc29",
+                "arch": "x86_64",
+                "payloadhash": "d4269888bf31c57c4d552fe68852890d",
+                "size": 217183
+            },
+            {
+                "name": "libmetalink",
+                "buildtime": 1518075362,
+                "epoch": null,
+                "version": "0.1.3",
+                "release": "6.fc28",
+                "arch": "x86_64",
+                "payloadhash": "0b24a2205fff4c591e60c85dbd4dd67a",
+                "size": 71400
+            },
+            {
+                "name": "libdb-utils",
+                "buildtime": 1518071205,
+                "epoch": null,
+                "version": "5.3.28",
+                "release": "30.fc28",
+                "arch": "x86_64",
+                "payloadhash": "8882fd2692a31eab11c2c1b35ff3717b",
+                "size": 371743
+            },
+            {
+                "name": "file-libs",
+                "buildtime": 1517996495,
+                "epoch": null,
+                "version": "5.32",
+                "release": "3.fc28",
+                "arch": "x86_64",
+                "payloadhash": "ed8674e948812841d458bc958261ca8a",
+                "size": 6111765
+            },
+            {
+                "name": "elfutils-libs",
+                "buildtime": 1501756032,
+                "epoch": null,
+                "version": "0.170",
+                "release": "1.fc27",
+                "arch": "x86_64",
+                "payloadhash": "95b570368286a903c531d68aefb591d9",
+                "size": 746687
+            },
+            {
+                "name": "libsss_nss_idmap",
+                "buildtime": 1520608408,
+                "epoch": null,
+                "version": "1.16.1",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "f45739e067c585b3e7f7108916701bd6",
+                "size": 88206
+            },
+            {
+                "name": "libsigsegv",
+                "buildtime": 1518080376,
+                "epoch": null,
+                "version": "2.11",
+                "release": "5.fc28",
+                "arch": "x86_64",
+                "payloadhash": "b6b8636eb9487e009c872b86eb402657",
+                "size": 46242
+            },
+            {
+                "name": "krb5-libs",
+                "buildtime": 1520445113,
+                "epoch": null,
+                "version": "1.16",
+                "release": "8.fc29",
+                "arch": "x86_64",
+                "payloadhash": "65f40e7e07ff40836dbc216445e5aa9a",
+                "size": 2384008
+            },
+            {
+                "name": "libnsl2",
+                "buildtime": 1518189915,
+                "epoch": null,
+                "version": "1.2.0",
+                "release": "1.fc28",
+                "arch": "x86_64",
+                "payloadhash": "35e27874349bfaa7ae953a0e38385540",
+                "size": 138330
+            },
+            {
+                "name": "python3-pip",
+                "buildtime": 1519312672,
+                "epoch": null,
+                "version": "9.0.1",
+                "release": "16.fc29",
+                "arch": "noarch",
+                "payloadhash": "2feef52928dec47dca1cd947b3aa5457",
+                "size": 7353328
+            },
+            {
+                "name": "python3",
+                "buildtime": 1519499221,
+                "epoch": null,
+                "version": "3.6.4",
+                "release": "16.fc29",
+                "arch": "x86_64",
+                "payloadhash": "6f010501856512fcb2ad76d4425aab16",
+                "size": 38853
+            },
+            {
+                "name": "pam",
+                "buildtime": 1518113887,
+                "epoch": null,
+                "version": "1.3.0",
+                "release": "10.fc28",
+                "arch": "x86_64",
+                "payloadhash": "567a78e5add0922d8115163aa7086cfa",
+                "size": 2673671
+            },
+            {
+                "name": "python3-six",
+                "buildtime": 1518176999,
+                "epoch": null,
+                "version": "1.11.0",
+                "release": "3.fc28",
+                "arch": "noarch",
+                "payloadhash": "b3e94962b65a8d8073b964d5be7975bb",
+                "size": 100361
+            },
+            {
+                "name": "python3-dateutil",
+                "buildtime": 1518161111,
+                "epoch": 1,
+                "version": "2.6.1",
+                "release": "3.fc28",
+                "arch": "noarch",
+                "payloadhash": "0085c9c36044bdf5ab758d1e255c2939",
+                "size": 595902
+            },
+            {
+                "name": "python3-smartcols",
+                "buildtime": 1518177043,
+                "epoch": null,
+                "version": "0.3.0",
+                "release": "2.fc28",
+                "arch": "x86_64",
+                "payloadhash": "06a8b79d535a16ca0dd000f1c56731e7",
+                "size": 326189
+            },
+            {
+                "name": "openldap",
+                "buildtime": 1520243327,
+                "epoch": null,
+                "version": "2.4.45",
+                "release": "14.fc29",
+                "arch": "x86_64",
+                "payloadhash": "2630025984170c0c7cf9cb3438263ace",
+                "size": 1011197
+            },
+            {
+                "name": "libseccomp",
+                "buildtime": 1518081107,
+                "epoch": null,
+                "version": "2.3.3",
+                "release": "2.fc28",
+                "arch": "x86_64",
+                "payloadhash": "26c6a917063d5654083974de6734112d",
+                "size": 320118
+            },
+            {
+                "name": "libpcap",
+                "buildtime": 1519129111,
+                "epoch": 14,
+                "version": "1.8.1",
+                "release": "9.fc28",
+                "arch": "x86_64",
+                "payloadhash": "1ecac901b3fa04a872aa0115fb6af3d7",
+                "size": 349271
+            },
+            {
+                "name": "json-c",
+                "buildtime": 1520347403,
+                "epoch": null,
+                "version": "0.13.1",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "ff7f2ea2ef326e4fab87e7fabdaf5511",
+                "size": 68330
+            },
+            {
+                "name": "device-mapper",
+                "buildtime": 1518170474,
+                "epoch": null,
+                "version": "1.02.146",
+                "release": "4.fc28",
+                "arch": "x86_64",
+                "payloadhash": "79ff82201dcbd3109e4185be9305e5ce",
+                "size": 346475
+            },
+            {
+                "name": "cryptsetup-libs",
+                "buildtime": 1520428182,
+                "epoch": null,
+                "version": "2.0.2",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "54699f49109d7b9af11dff29359eb815",
+                "size": 1299403
+            },
+            {
+                "name": "systemd",
+                "buildtime": 1520467920,
+                "epoch": null,
+                "version": "238",
+                "release": "3.fc29",
+                "arch": "x86_64",
+                "payloadhash": "ce4d65c847817ed284b1097596bc120c",
+                "size": 11442487
+            },
+            {
+                "name": "libyaml",
+                "buildtime": 1517672047,
+                "epoch": null,
+                "version": "0.1.7",
+                "release": "5.fc28",
+                "arch": "x86_64",
+                "payloadhash": "4e0f94eba782aa090fe6487142772aba",
+                "size": 135438
+            },
+            {
+                "name": "python3-modulemd",
+                "buildtime": 1512996876,
+                "epoch": null,
+                "version": "1.3.3",
+                "release": "1.fc28",
+                "arch": "noarch",
+                "payloadhash": "954768a4309b5103741eaee5baccdd8a",
+                "size": 205501
+            },
+            {
+                "name": "gnupg2",
+                "buildtime": 1520007957,
+                "epoch": null,
+                "version": "2.2.5",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "732423b9d1774956c9a54974e75ccbce",
+                "size": 9284775
+            },
+            {
+                "name": "python3-gpg",
+                "buildtime": 1518033839,
+                "epoch": null,
+                "version": "1.10.0",
+                "release": "3.fc28",
+                "arch": "x86_64",
+                "payloadhash": "e8b7c7148ea05cb701ae18889ec2c59e",
+                "size": 1290443
+            },
+            {
+                "name": "libcurl",
+                "buildtime": 1519040291,
+                "epoch": null,
+                "version": "7.58.0",
+                "release": "7.fc28",
+                "arch": "x86_64",
+                "payloadhash": "9eae43898831186c7020d11e64f51832",
+                "size": 610984
+            },
+            {
+                "name": "python3-librepo",
+                "buildtime": 1519224849,
+                "epoch": null,
+                "version": "1.8.1",
+                "release": "7.fc29",
+                "arch": "x86_64",
+                "payloadhash": "fbe5938de93353682cb9c9ba2d7370a8",
+                "size": 178594
+            },
+            {
+                "name": "rpm-plugin-selinux",
+                "buildtime": 1519129527,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "x86_64",
+                "payloadhash": "acfb6f0584f54ea753f272d505760846",
+                "size": 11648
+            },
+            {
+                "name": "rpm",
+                "buildtime": 1519129527,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "x86_64",
+                "payloadhash": "2a2959e5aea056f82fed496a45b0603d",
+                "size": 2041402
+            },
+            {
+                "name": "libdnf",
+                "buildtime": 1510052985,
+                "epoch": null,
+                "version": "0.11.1",
+                "release": "3.fc28",
+                "arch": "x86_64",
+                "payloadhash": "07f592ead4364677e6d1a0d7a3c55b82",
+                "size": 341477
+            },
+            {
+                "name": "rpm-build-libs",
+                "buildtime": 1519129527,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "x86_64",
+                "payloadhash": "381e9d91113b15ceeadeb0ad0b2771c5",
+                "size": 185416
+            },
+            {
+                "name": "python3-rpm",
+                "buildtime": 1519129527,
+                "epoch": null,
+                "version": "4.14.1",
+                "release": "8.fc28",
+                "arch": "x86_64",
+                "payloadhash": "2289dd60d1f724222256f63f150cce5b",
+                "size": 196374
+            },
+            {
+                "name": "dnf",
+                "buildtime": 1518447959,
+                "epoch": null,
+                "version": "2.7.5",
+                "release": "8.fc28",
+                "arch": "noarch",
+                "payloadhash": "b6c3e03723d38a1911efc110ce07dbb4",
+                "size": 1369698
+            },
+            {
+                "name": "deltarpm",
+                "buildtime": 1517985722,
+                "epoch": null,
+                "version": "3.6",
+                "release": "25.fc28",
+                "arch": "x86_64",
+                "payloadhash": "e7e9ed52b29cb90390af12f7854171af",
+                "size": 222815
+            },
+            {
+                "name": "sssd-client",
+                "buildtime": 1520608408,
+                "epoch": null,
+                "version": "1.16.1",
+                "release": "1.fc29",
+                "arch": "x86_64",
+                "payloadhash": "15e270d53b2808b1eac588178bf6366d",
+                "size": 226026
+            },
+            {
+                "name": "tar",
+                "buildtime": 1518223047,
+                "epoch": 2,
+                "version": "1.30",
+                "release": "3.fc28",
+                "arch": "x86_64",
+                "payloadhash": "ea2a310b216d89abc0cab39cc2d1ac77",
+                "size": 2904756
+            },
+            {
+                "name": "diffutils",
+                "buildtime": 1517986537,
+                "epoch": null,
+                "version": "3.6",
+                "release": "4.fc28",
+                "arch": "x86_64",
+                "payloadhash": "ed08723b1610b914fd87ec36271fffc5",
+                "size": 1400289
+            },
+            {
+                "name": "langpacks-en",
+                "buildtime": 1518065685,
+                "epoch": null,
+                "version": "1.0",
+                "release": "12.fc28",
+                "arch": "noarch",
+                "payloadhash": "926a126cefbdaad1bf20a46984fd5891",
+                "size": 400
+            }
+        ],
+        "logs": [
+            "oz-x86_64.log"
+        ],
+        "task_id": 25643900,
+        "version": "Rawhide",
+        "release": "20180311.n.1",
+        "arch": "x86_64",
+        "name": "Fedora-Container-Base"
+    }
+}

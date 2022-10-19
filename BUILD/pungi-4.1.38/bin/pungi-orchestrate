@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os
+import sys
+
+here = sys.path[0]
+if here != '/usr/bin':
+    # Git checkout
+    sys.path[0] = os.path.dirname(here)
+
+from pungi_utils import orchestrator
+
+
+if __name__ == '__main__':
+    orchestrator.main()

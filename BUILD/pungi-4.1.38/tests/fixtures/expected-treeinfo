@@ -1,0 +1,59 @@
+[checksums]
+images/efiboot.img = sha256:e575ffee875b0135d378bdbd3277dea06377747b5daa689b14d684654d883817
+images/install.img = sha256:8106f4ce2ac973dcab7d103dcd02e7549510e7940342866931fe034661d67915
+images/pxeboot/initrd.img = sha256:cd6150fa7d9646febbc9535bdca14cddcfffc454b43c5d352f6d459d81792138
+images/pxeboot/vmlinuz = sha256:feb72d4112b4329db3fc12b6afcb27a6f96da00bb114b3b85527dfd11bdfc84f
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = x86_64
+family = Test Product
+name = Test Product 1.0
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1539226055
+variant = Server
+variants = Server
+version = 1.0
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[media]
+discnum = 1
+totaldiscs = 1
+
+[release]
+name = Test Product
+short = TP
+version = 1.0
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1539226055
+platforms = x86_64,xen
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+

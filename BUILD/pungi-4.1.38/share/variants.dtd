@@ -1,0 +1,54 @@
+<!ELEMENT variants (ref*,variant*)>
+
+<!ELEMENT variant (release?,arches,groups?,environments*,variants*,buildinstallpackages?,modules?)?>
+<!ATTLIST variant
+    id CDATA #REQUIRED
+    name CDATA #REQUIRED
+    type (variant|addon|optional|layered-product) #REQUIRED
+    has_optional (true|false) #IMPLIED
+    is_empty (true|false) "false"
+>
+
+<!ELEMENT release (#PCDATA)>
+<!ATTLIST release
+    name CDATA #IMPLIED
+    short CDATA #IMPLIED
+    version CDATA #IMPLIED
+>
+
+<!ELEMENT arches (arch)+>
+
+<!ELEMENT groups (group)+>
+
+<!ELEMENT group (#PCDATA)>
+<!ATTLIST group
+    glob (true|false) #IMPLIED
+    default (true|false) #IMPLIED
+    uservisible (true|false) #IMPLIED
+>
+
+<!ELEMENT modules (module*, kojitag*)>
+
+<!ELEMENT module (#PCDATA)>
+<!ELEMENT kojitag (#PCDATA)>
+<!ATTLIST module
+    glob (true|false) #IMPLIED
+>
+
+<!ELEMENT environments (environment)+>
+
+<!ELEMENT environment (#PCDATA)>
+<!ATTLIST environment
+    display_order CDATA #IMPLIED
+>
+
+<!ELEMENT arch (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT ref EMPTY>
+<!ATTLIST ref
+    id CDATA #REQUIRED
+>
+
+<!ELEMENT buildinstallpackages (package)+>
+<!ELEMENT package (#PCDATA)>

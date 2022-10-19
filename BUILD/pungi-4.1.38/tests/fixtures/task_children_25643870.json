@@ -1,0 +1,445 @@
+[
+  {
+    "weight": 2.0,
+    "parent": 25643870,
+    "channel_id": 12,
+    "request": [
+      "Fedora-Container-Base",
+      "Rawhide",
+      "20180311.n.1",
+      "s390x",
+      {
+        "dest_tag": 3430,
+        "build_tag": 3428,
+        "build_tag_name": "f29-build",
+        "dest_tag_name": "f29-pending",
+        "id": 2032,
+        "name": "f29"
+      },
+      3428,
+      {
+        "dist": false,
+        "create_event": 31767365,
+        "creation_time": "2018-03-11 22:43:36.652788",
+        "state": 1,
+        "create_ts": 1520808216.65279,
+        "id": 874515
+      },
+      "http://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20180311.n.1/compose/Everything/s390x/os",
+      {
+        "kickstart": "fedora-docker-base.ks",
+        "disk_size": "5",
+        "format": [
+          "docker"
+        ],
+        "repo": [
+          "http://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20180311.n.1/compose/Everything/$arch/os"
+        ],
+        "release": "20180311.n.1",
+        "optional_arches": [
+          "aarch64",
+          "armhfp",
+          "ppc64le",
+          "s390x",
+          "x86_64"
+        ],
+        "ksurl": "git+https://pagure.io/fedora-kickstarts.git?#d9cf0e73bd1ec4df2abb4758e2c28ec72546de8d",
+        "factory_parameter": [
+          [
+            "dockerversion",
+            "1.10.1"
+          ],
+          [
+            "docker_cmd",
+            "[ \"/bin/bash\" ]"
+          ],
+          [
+            "docker_env",
+            "[ \"DISTTAG=f29container\", \"FGC=f29\" ]"
+          ],
+          [
+            "docker_label",
+            "{ \"name\": \"fedora\", \"license\": \"MIT\", \"vendor\": \"Fedora Project\", \"version\": \"29\"}"
+          ]
+        ],
+        "distro": "Fedora-22"
+      }
+    ],
+    "start_time": "2018-03-11 23:08:23.928109",
+    "start_ts": 1520809703.92811,
+    "waiting": null,
+    "awaited": false,
+    "label": "s390x",
+    "priority": 19,
+    "completion_time": "2018-03-12 00:08:03.441278",
+    "state": 5,
+    "create_time": "2018-03-11 23:08:10.964055",
+    "create_ts": 1520809690.96406,
+    "owner": 3445,
+    "host_id": 309,
+    "method": "createImage",
+    "completion_ts": 1520813283.44128,
+    "arch": "s390x",
+    "id": 25643898
+  },
+  {
+    "weight": 2.0,
+    "parent": 25643870,
+    "channel_id": 12,
+    "request": [
+      "Fedora-Container-Base",
+      "Rawhide",
+      "20180311.n.1",
+      "armhfp",
+      {
+        "dest_tag": 3430,
+        "build_tag": 3428,
+        "build_tag_name": "f29-build",
+        "dest_tag_name": "f29-pending",
+        "id": 2032,
+        "name": "f29"
+      },
+      3428,
+      {
+        "dist": false,
+        "create_event": 31767365,
+        "creation_time": "2018-03-11 22:43:36.652788",
+        "state": 1,
+        "create_ts": 1520808216.65279,
+        "id": 874515
+      },
+      "http://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20180311.n.1/compose/Everything/armhfp/os",
+      {
+        "kickstart": "fedora-docker-base.ks",
+        "disk_size": "5",
+        "format": [
+          "docker"
+        ],
+        "repo": [
+          "http://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20180311.n.1/compose/Everything/$arch/os"
+        ],
+        "release": "20180311.n.1",
+        "optional_arches": [
+          "aarch64",
+          "armhfp",
+          "ppc64le",
+          "s390x",
+          "x86_64"
+        ],
+        "ksurl": "git+https://pagure.io/fedora-kickstarts.git?#d9cf0e73bd1ec4df2abb4758e2c28ec72546de8d",
+        "factory_parameter": [
+          [
+            "dockerversion",
+            "1.10.1"
+          ],
+          [
+            "docker_cmd",
+            "[ \"/bin/bash\" ]"
+          ],
+          [
+            "docker_env",
+            "[ \"DISTTAG=f29container\", \"FGC=f29\" ]"
+          ],
+          [
+            "docker_label",
+            "{ \"name\": \"fedora\", \"license\": \"MIT\", \"vendor\": \"Fedora Project\", \"version\": \"29\"}"
+          ]
+        ],
+        "distro": "Fedora-22"
+      }
+    ],
+    "start_time": "2018-03-11 23:08:17.214930",
+    "start_ts": 1520809697.21493,
+    "waiting": null,
+    "awaited": false,
+    "label": "armhfp",
+    "priority": 19,
+    "completion_time": "2018-03-12 00:02:17.565792",
+    "state": 2,
+    "create_time": "2018-03-11 23:08:10.666517",
+    "create_ts": 1520809690.66652,
+    "owner": 3445,
+    "host_id": 197,
+    "method": "createImage",
+    "completion_ts": 1520812937.56579,
+    "arch": "armhfp",
+    "id": 25643896
+  },
+  {
+    "weight": 2.0,
+    "parent": 25643870,
+    "channel_id": 12,
+    "request": [
+      "Fedora-Container-Base",
+      "Rawhide",
+      "20180311.n.1",
+      "aarch64",
+      {
+        "dest_tag": 3430,
+        "build_tag": 3428,
+        "build_tag_name": "f29-build",
+        "dest_tag_name": "f29-pending",
+        "id": 2032,
+        "name": "f29"
+      },
+      3428,
+      {
+        "dist": false,
+        "create_event": 31767365,
+        "creation_time": "2018-03-11 22:43:36.652788",
+        "state": 1,
+        "create_ts": 1520808216.65279,
+        "id": 874515
+      },
+      "http://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20180311.n.1/compose/Everything/aarch64/os",
+      {
+        "kickstart": "fedora-docker-base.ks",
+        "disk_size": "5",
+        "format": [
+          "docker"
+        ],
+        "repo": [
+          "http://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20180311.n.1/compose/Everything/$arch/os"
+        ],
+        "release": "20180311.n.1",
+        "optional_arches": [
+          "aarch64",
+          "armhfp",
+          "ppc64le",
+          "s390x",
+          "x86_64"
+        ],
+        "ksurl": "git+https://pagure.io/fedora-kickstarts.git?#d9cf0e73bd1ec4df2abb4758e2c28ec72546de8d",
+        "factory_parameter": [
+          [
+            "dockerversion",
+            "1.10.1"
+          ],
+          [
+            "docker_cmd",
+            "[ \"/bin/bash\" ]"
+          ],
+          [
+            "docker_env",
+            "[ \"DISTTAG=f29container\", \"FGC=f29\" ]"
+          ],
+          [
+            "docker_label",
+            "{ \"name\": \"fedora\", \"license\": \"MIT\", \"vendor\": \"Fedora Project\", \"version\": \"29\"}"
+          ]
+        ],
+        "distro": "Fedora-22"
+      }
+    ],
+    "start_time": "2018-03-11 23:08:15.697731",
+    "start_ts": 1520809695.69773,
+    "waiting": null,
+    "awaited": false,
+    "label": "aarch64",
+    "priority": 19,
+    "completion_time": "2018-03-11 23:17:42.421352",
+    "state": 2,
+    "create_time": "2018-03-11 23:08:10.517265",
+    "create_ts": 1520809690.51727,
+    "owner": 3445,
+    "host_id": 287,
+    "method": "createImage",
+    "completion_ts": 1520810262.42135,
+    "arch": "aarch64",
+    "id": 25643894
+  },
+  {
+    "weight": 2.0,
+    "parent": 25643870,
+    "channel_id": 12,
+    "request": [
+      "Fedora-Container-Base",
+      "Rawhide",
+      "20180311.n.1",
+      "x86_64",
+      {
+        "dest_tag": 3430,
+        "build_tag": 3428,
+        "build_tag_name": "f29-build",
+        "dest_tag_name": "f29-pending",
+        "id": 2032,
+        "name": "f29"
+      },
+      3428,
+      {
+        "dist": false,
+        "create_event": 31767365,
+        "creation_time": "2018-03-11 22:43:36.652788",
+        "state": 1,
+        "create_ts": 1520808216.65279,
+        "id": 874515
+      },
+      "http://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20180311.n.1/compose/Everything/x86_64/os",
+      {
+        "kickstart": "fedora-docker-base.ks",
+        "disk_size": "5",
+        "format": [
+          "docker"
+        ],
+        "repo": [
+          "http://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20180311.n.1/compose/Everything/$arch/os"
+        ],
+        "release": "20180311.n.1",
+        "optional_arches": [
+          "aarch64",
+          "armhfp",
+          "ppc64le",
+          "s390x",
+          "x86_64"
+        ],
+        "ksurl": "git+https://pagure.io/fedora-kickstarts.git?#d9cf0e73bd1ec4df2abb4758e2c28ec72546de8d",
+        "factory_parameter": [
+          [
+            "dockerversion",
+            "1.10.1"
+          ],
+          [
+            "docker_cmd",
+            "[ \"/bin/bash\" ]"
+          ],
+          [
+            "docker_env",
+            "[ \"DISTTAG=f29container\", \"FGC=f29\" ]"
+          ],
+          [
+            "docker_label",
+            "{ \"name\": \"fedora\", \"license\": \"MIT\", \"vendor\": \"Fedora Project\", \"version\": \"29\"}"
+          ]
+        ],
+        "distro": "Fedora-22"
+      }
+    ],
+    "start_time": "2018-03-11 23:08:22.407649",
+    "start_ts": 1520809702.40765,
+    "waiting": null,
+    "awaited": false,
+    "label": "x86_64",
+    "priority": 19,
+    "completion_time": "2018-03-11 23:11:53.713226",
+    "state": 2,
+    "create_time": "2018-03-11 23:08:11.123381",
+    "create_ts": 1520809691.12338,
+    "owner": 3445,
+    "host_id": 154,
+    "method": "createImage",
+    "completion_ts": 1520809913.71323,
+    "arch": "x86_64",
+    "id": 25643900
+  },
+  {
+    "weight": 2.0,
+    "parent": 25643870,
+    "channel_id": 12,
+    "request": [
+      "Fedora-Container-Base",
+      "Rawhide",
+      "20180311.n.1",
+      "ppc64le",
+      {
+        "dest_tag": 3430,
+        "build_tag": 3428,
+        "build_tag_name": "f29-build",
+        "dest_tag_name": "f29-pending",
+        "id": 2032,
+        "name": "f29"
+      },
+      3428,
+      {
+        "dist": false,
+        "create_event": 31767365,
+        "creation_time": "2018-03-11 22:43:36.652788",
+        "state": 1,
+        "create_ts": 1520808216.65279,
+        "id": 874515
+      },
+      "http://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20180311.n.1/compose/Everything/ppc64le/os",
+      {
+        "kickstart": "fedora-docker-base.ks",
+        "disk_size": "5",
+        "format": [
+          "docker"
+        ],
+        "repo": [
+          "http://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20180311.n.1/compose/Everything/$arch/os"
+        ],
+        "release": "20180311.n.1",
+        "optional_arches": [
+          "aarch64",
+          "armhfp",
+          "ppc64le",
+          "s390x",
+          "x86_64"
+        ],
+        "ksurl": "git+https://pagure.io/fedora-kickstarts.git?#d9cf0e73bd1ec4df2abb4758e2c28ec72546de8d",
+        "factory_parameter": [
+          [
+            "dockerversion",
+            "1.10.1"
+          ],
+          [
+            "docker_cmd",
+            "[ \"/bin/bash\" ]"
+          ],
+          [
+            "docker_env",
+            "[ \"DISTTAG=f29container\", \"FGC=f29\" ]"
+          ],
+          [
+            "docker_label",
+            "{ \"name\": \"fedora\", \"license\": \"MIT\", \"vendor\": \"Fedora Project\", \"version\": \"29\"}"
+          ]
+        ],
+        "distro": "Fedora-22"
+      }
+    ],
+    "start_time": "2018-03-11 23:08:29.886127",
+    "start_ts": 1520809709.88613,
+    "waiting": null,
+    "awaited": false,
+    "label": "ppc64le",
+    "priority": 19,
+    "completion_time": "2018-03-11 23:09:19.227037",
+    "state": 5,
+    "create_time": "2018-03-11 23:08:10.767363",
+    "create_ts": 1520809690.76736,
+    "owner": 3445,
+    "host_id": 234,
+    "method": "createImage",
+    "completion_ts": 1520809759.22704,
+    "arch": "ppc64le",
+    "id": 25643897
+  },
+  {
+    "weight": 1.0,
+    "parent": 25643870,
+    "channel_id": 12,
+    "request": [
+      3430,
+      1056936,
+      false,
+      null,
+      true
+    ],
+    "start_time": "2018-03-12 00:08:17.895312",
+    "start_ts": 1520813297.89531,
+    "waiting": null,
+    "awaited": false,
+    "label": "tag",
+    "priority": 19,
+    "completion_time": "2018-03-12 00:08:18.571567",
+    "state": 2,
+    "create_time": "2018-03-12 00:08:17.715494",
+    "create_ts": 1520813297.71549,
+    "owner": 3445,
+    "host_id": 157,
+    "method": "tagBuild",
+    "completion_ts": 1520813298.57157,
+    "arch": "noarch",
+    "id": 25644779
+  }
+]

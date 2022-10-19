@@ -1,0 +1,18 @@
+{
+    "header": {
+        "type": "productmd.images",
+        "version": "1.2"
+    },
+    "payload": {
+        "compose": {
+            "date": "20181001",
+            "id": "Empty-1.0-20181001.n.0",
+            "respin": 0,
+            "type": "nightly"
+        },
+        "images": {
+            "Var1": {
+            }
+        }
+    }
+}

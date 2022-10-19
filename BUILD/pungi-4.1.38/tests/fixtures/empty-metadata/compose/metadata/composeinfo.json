@@ -1,0 +1,23 @@
+{
+    "header": {
+        "type": "productmd.composeinfo",
+        "version": "1.2"
+    },
+    "payload": {
+        "compose": {
+            "date": "20181001",
+            "id": "Empty-1.0-20181001.n.0",
+            "respin": 0,
+            "type": "nightly"
+        },
+        "release": {
+            "internal": false,
+            "name": "Dummy Product",
+            "short": "Empty",
+            "type": "ga",
+            "version": "1.0"
+        },
+        "variants": {
+        }
+    }
+}

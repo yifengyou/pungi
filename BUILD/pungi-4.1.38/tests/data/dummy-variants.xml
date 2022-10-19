@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE variants PUBLIC "-//Red Hat, Inc.//DTD Variants info//EN" "variants.dtd">
+
+<variants>
+  <variant id="ResilientStorage" name="Resilient Storage" type="addon">
+    <arches>
+      <arch>x86_64</arch>
+    </arches>
+    <groups>
+      <group default="true">resilient-storage</group>
+    </groups>
+    <environments>
+      <environment>foobar</environment>
+    </environments>
+  </variant>
+
+  <variant id="Live" name="Live" type="variant" is_empty="true">
+    <arches>
+      <arch>x86_64</arch>
+    </arches>
+  </variant>
+
+  <variant id="Gluster" name="Gluster Layered Product" type="layered-product">
+    <release name="Gluster" version="2.3" short="Gluster" />
+    <arches>
+      <arch>x86_64</arch>
+    </arches>
+    <groups>
+      <group default="true">gluster</group>
+    </groups>
+  </variant>
+
+  <variant id="Everything" name="Everything" type="variant">
+    <arches>
+      <arch>i386</arch>
+      <arch>x86_64</arch>
+    </arches>
+  </variant>
+
+  <variant id="Client" name="Client" type="variant" has_optional="true">
+    <arches>
+      <arch>i386</arch>
+      <arch>x86_64</arch>
+    </arches>
+    <groups>
+      <group default="true">core</group>
+      <group default="true">standard</group>
+      <group default="false">text-internet</group>
+      <group default="true" uservisible="false">firefox</group>
+      <group>skype</group>
+    </groups>
+    <environments>
+      <environment>minimal</environment>
+      <environment display_order="1000">desktop</environment>
+    </environments>
+  </variant>
+
+  <variant id="Server" name="Server" type="variant" has_optional="true">
+    <arches>
+      <arch>x86_64</arch>
+      <arch>s390x</arch>
+    </arches>
+    <groups>
+      <group default="true" uservisible="true">core</group>
+      <group default="true">standard</group>
+      <group default="true">text-internet</group>
+    </groups>
+    <environments>
+      <environment>minimal</environment>
+    </environments>
+    <variants>
+      <ref id="ResilientStorage"/>
+      <ref id="Gluster"/>
+      <variant id="optional" name="optional" type="optional">
+        <arches>
+          <arch>x86_64</arch>
+          <arch>s390x</arch>
+        </arches>
+        <groups>
+          <group default="false">firefox</group>
+        </groups>
+      </variant>
+    </variants>
+  </variant>
+
+  <!-- layered products - Tools for Foo and Bar variants from a base product -->
+  <variant id="Foo-Tools" name="Tools" type="variant" has_optional="false">
+    <arches>
+      <arch>x86_64</arch>
+    </arches>
+    <groups>
+      <group default="true" uservisible="true">core</group>
+    </groups>
+    <environments>
+      <environment>minimal</environment>
+    </environments>
+  </variant>
+
+  <variant id="Bar-Tools" name="Tools" type="variant" has_optional="false">
+    <arches>
+      <arch>x86_64</arch>
+    </arches>
+    <groups>
+      <group default="true" uservisible="true">core</group>
+    </groups>
+    <environments>
+      <environment>minimal</environment>
+    </environments>
+  </variant>
+
+</variants>

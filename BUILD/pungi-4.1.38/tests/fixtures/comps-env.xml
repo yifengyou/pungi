@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps
+  PUBLIC '-//Red Hat, Inc.//DTD Comps info//EN'
+  'comps.dtd'>
+<comps>
+  <group>
+    <id>basic-desktop</id>
+    <name>Desktop</name>
+    <description>Basic Desktop packages</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq requires="dummy-imsettings" type="conditional">dummy-imsettings-gnome</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>core</id>
+    <name>Core</name>
+    <name xml:lang="af">Kern</name>
+    <name xml:lang="am">ማዕከላዊ ቦታ</name>
+    <description>Smallest possible installation</description>
+    <description xml:lang="af">Kleinste moontlike installasie</description>
+    <description xml:lang="am">ትንሹ የሚቻለው የማስገባት ሥራ</description>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">dummy-bash</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>firefox</id>
+    <name>Firefox Web Browser</name>
+    <description/>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">Dummy-firefox</packagereq>
+      <packagereq type="mandatory">dummy-icedtea-web</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>resilient-storage</id>
+    <name>Resilient Storage</name>
+    <description>Clustered storage, including the GFS2 filesystem.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <langonly>en</langonly>
+    <packagelist>
+      <packagereq type="mandatory">dummy-gfs2-utils</packagereq>
+      <packagereq type="mandatory">dummy-lvm2-cluster</packagereq>
+      <packagereq type="mandatory">dummy-pacemaker</packagereq>
+      <packagereq type="mandatory">dummy-resource-agents</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>standard</id>
+    <name>Standard</name>
+    <description>Common set of utilities that extend the minimal installation.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">dummy-lvm2</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>text-internet</id>
+    <name>Text-based Internet</name>
+    <description>This group includes text-based email, Web, and chat clients.  These applications do not require the X Window System.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">dummy-elinks</packagereq>
+      <packagereq type="optional">dummy-tftp</packagereq>
+    </packagelist>
+  </group>
+  <category>
+    <id>apps</id>
+    <name>Applications</name>
+    <name xml:lang="af">Toepassings</name>
+    <name xml:lang="am">መጠቀሚያ ፕሮግራሞች</name>
+    <description>Applications to perform a variety of tasks</description>
+    <description xml:lang="ar">ﺖﻄﺒﻴﻗﺎﺗ ﺖﻗﻮﻣ ﺐﻤﻫﺎﻣ ﻢﻧﻮﻋﺓ</description>
+    <display_order>20</display_order>
+    <grouplist>
+      <groupid>firefox</groupid>
+    </grouplist>
+  </category>
+  <environment>
+    <id>minimal</id>
+    <name>Minimal install</name>
+    <name xml:lang="bg">Минимална инсталация</name>
+    <name xml:lang="ca">Instal·lació mínima</name>
+    <description>Basic functionality.</description>
+    <description xml:lang="bg">Основна функционалност.</description>
+    <description xml:lang="ca">Funcionalitat bàsica.</description>
+    <display_order>10</display_order>
+    <grouplist>
+      <groupid>core</groupid>
+    </grouplist>
+  </environment>
+  <langpacks>
+    <match install="aspell-%s" name="aspell"/>
+    <match install="firefox-langpack-%s" name="firefox"/>
+    <match install="kde-l10n-%s" name="kdelibs"/>
+  </langpacks>
+</comps>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE variants PUBLIC "-//Red Hat, Inc.//DTD Variants info//EN" "variants.dtd">
+
+<variants>
+  <variant id="ResilientStorage" name="Resilient Storage" type="variant">
+    <arches>
+      <arch>x86_64</arch>
+    </arches>
+    <groups>
+      <group default="true">resilient-storage</group>
+    </groups>
+  </variant>
+
+  <variant id="Client" name="Client" type="variant">
+    <arches>
+      <arch>i386</arch>
+      <arch>x86_64</arch>
+    </arches>
+    <groups>
+      <group default="true">core</group>
+      <group default="true">standard</group>
+      <group default="false">text-internet</group>
+      <group default="true" uservisible="false">firefox</group>
+      <group>skype</group>
+    </groups>
+    <environments>
+      <environment>minimal</environment>
+      <environment display_order="1000">desktop</environment>
+    </environments>
+  </variant>
+
+  <variant id="Server" name="Server" type="variant">
+    <arches>
+      <arch>x86_64</arch>
+      <arch>s390x</arch>
+    </arches>
+    <groups>
+      <group default="true" uservisible="true">core</group>
+      <group default="true">standard</group>
+      <group default="true">text-internet</group>
+    </groups>
+    <environments>
+      <environment>minimal</environment>
+    </environments>
+  </variant>
+
+</variants>
