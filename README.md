@@ -1,4 +1,4 @@
-# pungi解析
+# pungi
 
 ```
 Something I hope you know before go into the coding~
@@ -28,12 +28,31 @@ Composes are release snapshots that contain release deliverables such as:
 * 官方源码：<https://pagure.io/pungi>
 * 官方文档：<https://docs.pagure.org/pungi/index.html>
 
+
 ## 目录
+
+
+* [pungi介绍](docs/pungi介绍.md)
+* [pungi容器化部署](docs/pungi容器化部署.md)
+* [pungi源码分析](docs/pungi源码分析.md)
+
+
+
+
+
 
 
 
 
 ## 图示
+
+
+
+
+
+
+
+
 
 
 ---
