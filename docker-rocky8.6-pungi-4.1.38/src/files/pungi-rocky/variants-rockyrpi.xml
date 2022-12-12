@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE variants PUBLIC "-//Rocky, Inc.//DTD Variants info//EN" "variants2012.dtd">
+<variants>
+    <variant id="rockyrpi" name="rockyrpi" type="variant">
+        <arches>
+            <arch>aarch64</arch>
+        </arches>
+    </variant>
+</variants>

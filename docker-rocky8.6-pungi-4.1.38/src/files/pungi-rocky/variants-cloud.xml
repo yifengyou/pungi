@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE variants PUBLIC "-//Red Hat, Inc.//DTD Variants info//EN" "variants2012.dtd">
+<variants>
+  <variant id="Cloud" name="Cloud" type="variant" is_empty="true">
+    <arches>
+      <arch>aarch64</arch>
+      <arch>x86_64</arch>
+      <arch>ppc64le</arch>
+    </arches>
+  </variant>
+</variants>

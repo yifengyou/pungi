@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE variants PUBLIC "-//Red Hat, Inc.//DTD Variants info//EN" "variants2012.dtd">
+<variants>
+  <variant id="BaseOS" name="BaseOS" type="variant" has_optional="false">
+    <!-- List of architectures for BaseOS compose variant -->
+    <arches>
+      <arch>aarch64</arch>
+      <arch>x86_64</arch>
+      <arch>ppc64le</arch>
+    </arches>
+    <!-- List of comps groups that should be part of BaseOS compose variant -->
+    <groups>
+      <!-- Essential groups for Anaconda installation -->
+      <group default="true">guest-agents</group>
+      <group default="true">standard</group>
+      <group default="true">base</group>
+      <group default="true">core</group>
+      <!-- Other groups -->
+      <group default="true">binary-intentionally-in-rhel-8</group>
+      <group default="true">additional-devel</group>
+      <group default="false">anaconda-tools</group>
+      <group default="false">conflicts-baseos</group>
+      <group default="true">development</group>
+      <group default="true">server-product</group>
+      <group default="true">dial-up</group>
+      <group default="true">networkmanager-submodules</group>
+      <group default="true">file-server</group>
+      <group default="true">fonts</group>
+      <group default="true">gnome-desktop</group>
+      <group default="true">graphical-admin-tools</group>
+      <group default="true">hardware-monitoring</group>
+      <group default="true">hardware-support</group>
+      <group default="true">infiniband</group>
+      <group default="true">headless-management</group>
+      <group default="true">large-systems</group>
+      <group default="true">legacy-unix</group>
+      <group default="true">mail-server</group>
+      <group default="true">mainframe-access</group>
+      <group default="true">multimedia</group>
+      <group default="true">dns-server</group>
+      <group default="true">smart-card</group>
+      <group default="true">smb-server</group>
+      <group default="true">network-tools</group>
+      <group default="true">network-file-system-client</group>
+      <group default="true">network-server</group>
+      <group default="true">performance</group>
+      <group default="true">platform-devel</group>
+      <group default="true">python-web</group>
+      <group default="true">remote-system-management</group>
+      <group default="true">scientific</group>
+      <group default="true">security-tools</group>
+      <group default="true">system-tools</group>
+      <group default="true">workstation-product</group>
+    </groups>
+    <!-- List of environments from comps that should be part of BaseOS compose variant -->
+    <environments>
+      <environment display_order="3">minimal-environment</environment>
+      <environment display_order="99">custom-environment</environment>
+      <environment display_order="2">server-product-environment</environment>
+    </environments>
+  </variant>
+  <variant id="AppStream" name="AppStream" type="variant">
+    <!-- List of architectures for AppStream compose variant -->
+    <arches>
+      <arch>aarch64</arch>
+      <arch>ppc64le</arch>
+      <arch>x86_64</arch>
+    </arches>
+    <!-- List of comps groups that should be part of AppStream compose variant -->
+    <groups>
+      <group default="true">nonmodular-appstream</group>
+      <group default="true">standard</group>
+      <group default="false">anaconda-tools</group>
+      <group default="true">base</group>
+      <group default="false">conflicts-appstream</group>
+      <group default="true">core</group>
+      <group default="true">additional-devel</group>
+      <group default="true">base-x</group>
+      <group default="true">debugging</group>
+      <group default="true">development</group>
+      <group default="true">dotnet-core</group>
+      <group default="true">file-server</group>
+      <group default="true">ftp-server</group>
+      <group default="true">gnome-apps</group>
+      <group default="true">gnome-desktop</group>
+      <group default="true">guest-desktop-agents</group>
+      <group default="true">graphical-admin-tools</group>
+      <group default="true">graphics</group>
+      <group default="true">infiniband</group>
+      <group default="true">workstation-product</group>
+      <group default="true">multimedia</group>
+      <group default="true">mail-server</group>
+      <group default="true">mainframe-access</group>
+      <group default="true">network-server</group>
+      <group default="true">network-tools</group>
+      <group default="true">container-management</group>
+      <group default="true">smb-server</group>
+      <group default="true">dial-up</group>
+      <group default="true">fonts</group>
+      <group default="true">input-methods</group>
+      <group default="true">multimedia</group>
+      <group default="true">networkmanager-submodules</group>
+      <group default="true">network-file-system-client</group>
+      <group default="true">print-client</group>
+      <group default="true">desktop-debugging</group>
+      <group default="true">internet-browser</group>
+      <group default="true">gnome-desktop</group>
+      <group default="true">guest-agents</group>
+      <group default="true">guest-desktop-agents</group>
+      <group default="true">headless-management</group>
+      <group default="true">java-platform</group>
+      <group default="true">gnome-apps</group>
+      <group default="true">internet-applications</group>
+      <group default="true">office-suite</group>
+      <group default="true">performance</group>
+      <group default="true">platform-devel</group>
+      <group default="true">platform-kvm</group>
+      <group default="true">platform-microsoft</group>
+      <group default="true">platform-vmware</group>
+      <group default="true">scientific</group>
+      <group default="true">ostree-support</group>
+      <group default="true">security-tools</group>
+      <group default="true">smart-card</group>
+      <group default="true">system-tools</group>
+      <group default="true">texlive</group>
+      <group default="true">legacy-x</group>
+      <group default="true">backup-client</group>
+      <group default="true">remote-desktop-clients</group>
+      <group default="true">remote-system-management</group>
+      <group default="true">rpm-development-tools</group>
+      <group default="true">virtualization-client</group>
+      <group default="true">virtualization-hypervisor</group>
+      <group default="true">virtualization-platform</group>
+      <group default="true">virtualization-tools</group>
+      <group default="true">web-server</group>
+    </groups>
+    <!-- List of environments from comps that should be part of BaseOS compose variant -->
+    <environments>
+      <environment display_order="3">minimal-environment</environment>
+      <environment display_order="99">virtualization-host-environment</environment>
+      <environment display_order="99">custom-environment</environment>
+      <environment display_order="2">server-product-environment</environment>
+      <environment display_order="1">graphical-server-environment</environment>
+      <environment display_order="4">workstation-product-environment</environment>
+    </environments>
+    <!-- List of modules that should be part of AppStream compose variant -->
+    <modules>
+      <module>389-ds:1.4</module>
+      <module>ant:1.10</module>
+      <module>perl-App-cpanminus:1.7044</module>
+      <module>perl-DBD-MySQL:4.046</module>
+      <module>perl-DBD-Pg:3.7</module>
+      <module>perl-DBD-SQLite:1.58</module>
+      <module>perl-DBI:1.641</module>
+      <module>perl-IO-Socket-SSL:2.066</module>
+      <module>perl-libwww-perl:6.34</module>
+      <module>container-tools:1.0</module>
+      <module>container-tools:2.0</module>
+      <module>container-tools:3.0</module>
+      <module>container-tools:rhel8</module>
+      <module>freeradius:3.0</module>
+      <module>gimp:2.8</module>
+      <module>go-toolset:rhel8</module>
+      <module>httpd:2.4</module>
+      <module>idm:DL1</module>
+      <module>idm:client</module>
+      <module>inkscape:0.92.3</module>
+      <module>javapackages-runtime:201801</module>
+      <module>jmc:rhel8</module>
+      <module>libselinux-python:2.8</module>
+      <module>llvm-toolset:rhel8</module>
+      <module>mailman:2.1</module>
+      <module>mariadb:10.3</module>
+      <module>mariadb:10.5</module>
+      <module>maven:3.5</module>
+      <module>maven:3.6</module>
+      <module>mercurial:4.8</module>
+      <module>mod_auth_openidc:2.3</module>
+      <module>mysql:8.0</module>
+      <module>nginx:1.14</module>
+      <module>nginx:1.16</module>
+      <module>nginx:1.18</module>
+      <module>nodejs:10</module>
+      <module>nodejs:12</module>
+      <module>nodejs:14</module>
+      <module>parfait:0.5</module>
+      <module>perl:5.24</module>
+      <module>perl:5.26</module>
+      <module>perl:5.30</module>
+      <module>perl-FCGI:0.78</module>
+      <module>php:7.2</module>
+      <module>php:7.3</module>
+      <module>php:7.4</module>
+      <module>pki-core:10.6</module>
+      <module>pki-deps:10.6</module>
+      <module>pmdk:1-fileformat-v6</module>
+      <module>postgresql:10</module>
+      <module>postgresql:9.6</module>
+      <module>postgresql:12</module>
+      <module>postgresql:13</module>
+      <module>python27:2.7</module>
+      <module>python36:3.6</module>
+      <module>python38:3.8</module>
+      <module>python39:3.9</module>
+      <module>redis:5</module>
+      <module>redis:6</module>
+      <module>rhn-tools:1.0</module>
+      <module>ruby:2.5</module>
+      <module>ruby:2.6</module>
+      <module>ruby:2.7</module>
+      <module>rust-toolset:rhel8</module>
+      <module>satellite-5-client:1.0</module>
+      <module>scala:2.10</module>
+      <module>squid:4</module>
+      <module>subversion:1.10</module>
+      <module>subversion:1.14</module>
+      <module>swig:3.0</module>
+      <module>swig:4.0</module>
+      <module>varnish:6</module>
+      <module>virt:rhel</module>
+      <module>perl-YAML:1.24</module>
+    </modules>
+
+  </variant>
+
+  <variant id="Minimal" name="Minimal" type="variant">
+    <arches>
+      <arch>aarch64</arch>
+      <arch>x86_64</arch>
+      <arch>ppc64le</arch>
+    </arches>
+    <groups>
+      <group default="true">core</group>
+    </groups>
+    <environments>
+      <environment display_order="3">minimal-environment</environment>
+    </environments>
+  </variant>
+
+
+  <variant id="PowerTools" name="PowerTools" type="variant">
+    <!-- List of architectures for Powertools compose variant -->
+    <arches>
+      <arch>aarch64</arch>
+      <arch>ppc64le</arch>
+      <arch>x86_64</arch>
+    </arches>
+    <groups>
+      <group default="true">rocky-powertools</group>
+    </groups>
+    <modules>
+      <module>javapackages-tools:201801</module>
+      <module>mariadb-devel:10.3</module>
+      <module>virt-devel:rhel</module>
+      <module>python38-devel:3.8</module>
+      <module>python39-devel:3.9</module>
+    </modules>
+  </variant>
+
+  <!-- ADDONS (Defined as variants in RHEL-8) -->
+
+  <variant id="ResilientStorage" name="Resilient Storage" type="variant">
+    <arches>
+      <arch>x86_64</arch>
+      <arch>ppc64le</arch>
+      <arch>aarch64</arch>
+    </arches>
+    <groups>
+      <group default="true">ha</group>
+      <group default="true">ha-devel</group>
+      <group default="true">resilient-storage</group>
+    </groups>
+  </variant>
+
+  <variant id="HighAvailability" name="High Availability" type="variant">
+    <arches>
+      <arch>aarch64</arch>
+      <arch>x86_64</arch>
+      <arch>ppc64le</arch>
+    </arches>
+    <groups>
+      <group default="true">ha</group>
+      <group default="true">ha-devel</group>
+    </groups>
+  </variant>
+  <variant id="Cloud" name="Cloud" type="variant" is_empty="true">
+    <arches>
+      <arch>aarch64</arch>
+      <arch>ppc64le</arch>
+      <arch>s390x</arch>
+      <arch>x86_64</arch>
+    </arches>
+  </variant>
+</variants>
