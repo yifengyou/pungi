@@ -10,6 +10,7 @@ default:
 	@echo "maintainers: yifengyou 13518106436@163.com"
 	@echo ""
 	@echo "help        show help info(default)"
+	@echo "status      show docker status"
 	@echo "build       build docker image"
 	@echo "attach      attach container"
 	@echo "destroy     destroy container"
@@ -39,3 +40,9 @@ daemon:
 reenter: build destroy daemon
 	docker exec -it $(CONTAINER_NAME) /bin/bash -c "$(APP)-init"
 	docker exec -it $(CONTAINER_NAME) /bin/bash -c "cd /data && /bin/bash"
+
+status:
+	systemctl status docker --no-pager
+	docker image ls $(DOCKER_IMAGE)
+	docker container ls --filter name=$(CONTAINER_NAME)
+	@echo "All ok!"
