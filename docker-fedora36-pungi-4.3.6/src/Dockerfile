@@ -11,7 +11,8 @@ RUN dnf install -y \
         vim \
         net-tools \
         iproute \
-        tmux
+        tmux \
+        dnf-utils
 
 RUN dnf install -y \
     pungi \
