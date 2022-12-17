@@ -15,4 +15,5 @@ RUN dnf install -y \
     tmux \
     && dnf clean all
 
+COPY files/pungi-init /usr/bin/pungi-init
 RUN useradd pungi && passwd -d pungi
