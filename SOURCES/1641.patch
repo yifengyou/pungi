@@ -1,0 +1,104 @@
+From 479849042f118508a7d4ee27a7444c002ac9e119 Mon Sep 17 00:00:00 2001
+From: Lubomír Sedlář <lsedlar@redhat.com>
+Date: Nov 03 2022 10:11:01 +0000
+Subject: init: Filter comps for modular variants with tags
+
+
+Modular variants can either be specified by a list of modules, or by a
+list of Koji tags. In terms of comps preprocessing there should not be
+any difference between the two.
+
+Resolves: https://pagure.io/pungi/issue/1640
+Signed-off-by: Lubomír Sedlář <lsedlar@redhat.com>
+
+---
+
+diff --git a/pungi/phases/init.py b/pungi/phases/init.py
+index a78c0dc..a99bc59 100644
+--- a/pungi/phases/init.py
++++ b/pungi/phases/init.py
+@@ -165,12 +165,18 @@ def write_variant_comps(compose, arch, variant):
+     run(cmd)
+ 
+     comps = CompsWrapper(comps_file)
+-    if variant.groups or variant.modules is not None or variant.type != "variant":
+-        # Filter groups if the variant has some, or it's a modular variant, or
+-        # is not a base variant.
++    # Filter groups if the variant has some, or it's a modular variant, or
++    # is not a base variant.
++    if (
++        variant.groups
++        or variant.modules is not None
++        or variant.modular_koji_tags is not None
++        or variant.type != "variant"
++    ):
+         unmatched = comps.filter_groups(variant.groups)
+         for grp in unmatched:
+             compose.log_warning(UNMATCHED_GROUP_MSG % (variant.uid, arch, grp))
++
+     contains_all = not variant.groups and not variant.environments
+     if compose.conf["comps_filter_environments"] and not contains_all:
+         # We only want to filter environments if it's enabled by configuration
+diff --git a/tests/helpers.py b/tests/helpers.py
+index 7aa7452..e221b83 100644
+--- a/tests/helpers.py
++++ b/tests/helpers.py
+@@ -79,6 +79,7 @@ class MockVariant(mock.Mock):
+         self.variants = {}
+         self.pkgsets = set()
+         self.modules = None
++        self.modular_koji_tags = None
+         self.name = name
+         self.nsvc_to_pkgset = defaultdict(lambda: mock.Mock(rpms_by_arch={}))
+ 
+diff --git a/tests/test_initphase.py b/tests/test_initphase.py
+index 1fb80c4..2ddb82c 100644
+--- a/tests/test_initphase.py
++++ b/tests/test_initphase.py
+@@ -499,6 +499,45 @@ class TestWriteVariantComps(PungiTestCase):
+ 
+     @mock.patch("pungi.phases.init.run")
+     @mock.patch("pungi.phases.init.CompsWrapper")
++    def test_run_filter_for_modular_koji_tags(self, CompsWrapper, run):
++        compose = DummyCompose(self.topdir, {})
++        variant = compose.variants["Server"]
++        variant.groups = []
++        variant.modular_koji_tags = ["f38-modular"]
++        comps = CompsWrapper.return_value
++        comps.filter_groups.return_value = []
++
++        init.write_variant_comps(compose, "x86_64", variant)
++
++        self.assertEqual(
++            run.mock_calls,
++            [
++                mock.call(
++                    [
++                        "comps_filter",
++                        "--arch=x86_64",
++                        "--keep-empty-group=conflicts",
++                        "--keep-empty-group=conflicts-server",
++                        "--variant=Server",
++                        "--output=%s/work/x86_64/comps/comps-Server.x86_64.xml"
++                        % self.topdir,
++                        self.topdir + "/work/global/comps/comps-global.xml",
++                    ]
++                )
++            ],
++        )
++        self.assertEqual(
++            CompsWrapper.call_args_list,
++            [mock.call(self.topdir + "/work/x86_64/comps/comps-Server.x86_64.xml")],
++        )
++        self.assertEqual(comps.filter_groups.call_args_list, [mock.call([])])
++        self.assertEqual(
++            comps.filter_environments.mock_calls, [mock.call(variant.environments)]
++        )
++        self.assertEqual(comps.write_comps.mock_calls, [mock.call()])
++
++    @mock.patch("pungi.phases.init.run")
++    @mock.patch("pungi.phases.init.CompsWrapper")
+     def test_run_report_unmatched(self, CompsWrapper, run):
+         compose = DummyCompose(self.topdir, {})
+         variant = compose.variants["Server"]
+

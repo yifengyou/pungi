@@ -1,0 +1,20 @@
+---
+document: modulemd
+version: 2
+data:
+  name: module
+  stream: master
+  version: 20190318
+  context: abcdef
+  arch: armhfp
+  summary: Dummy module
+  description: Dummy module
+  license:
+    module:
+    - Beerware
+    content:
+    - Beerware
+  artifacts:
+    rpms:
+      - foobar-0:1.0-1.noarch
+...

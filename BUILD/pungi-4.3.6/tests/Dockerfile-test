@@ -1,0 +1,24 @@
+FROM fedora:33
+LABEL \
+    name="Pungi test" \
+    description="Run tests using tox with Python 3" \
+    vendor="Pungi developers" \
+    license="MIT"
+
+RUN dnf -y update && dnf -y install \
+        findutils \
+        libmodulemd \
+        git \
+        koji \
+        make \
+        python3-createrepo_c \
+        python3-gobject-base \
+        python3-tox \
+        python3-urlgrabber \
+    && dnf clean all
+
+WORKDIR /src
+
+COPY . .
+
+CMD ["tox", "-e", "flake8,black,py3"]

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pungi
+Version: 4.3.6
+Summary: Distribution compose tool
+Home-page: https://pagure.io/pungi
+Author: Dennis Gilmore
+Author-email: dgilmore@fedoraproject.org
+License: GPLv2
+Platform: UNKNOWN
+License-File: COPYING
+License-File: AUTHORS
+
+UNKNOWN
+

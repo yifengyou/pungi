@@ -1,0 +1,58 @@
+{
+    "header": {
+        "type": "productmd.images",
+        "version": "1.2"
+    },
+    "payload": {
+        "compose": {
+            "date": "20181001",
+            "id": "Mixed-1.0-20181001.n.0",
+            "respin": 0,
+            "type": "nightly"
+        },
+        "images": {
+            "Server": {
+                "x86_64": [
+                    {
+                        "arch": "x86_64",
+                        "bootable": false,
+                        "checksums": {
+                            "md5": "c7977d67f6522bce7fb04c0818a3c744",
+                            "sha1": "c7d65673b2eb477016f9e09f321935bace545515",
+                            "sha256": "6d9cfc9be59cba96763dcca5d1b5759127d2f7920055b663dbcf29474bc368de"
+                        },
+                        "disc_count": 1,
+                        "disc_number": 1,
+                        "format": "iso",
+                        "implant_md5": "340b7dc15b9c74b8576b81c3b33fc3f2",
+                        "mtime": 1636012560,
+                        "path": "Server-Gluster/x86_64/iso/Gluster-2.3-DP-1-20211104.t.4-Server-x86_64-dvd1.iso",
+                        "size": 419840,
+                        "subvariant": "Server-Gluster",
+                        "type": "dvd",
+                        "volume_id": "Gluster-2.3 DP-1 Server.x86_64"
+                    },
+                    {
+                        "arch": "x86_64",
+                        "bootable": false,
+                        "checksums": {
+                            "md5": "a7977d67f6522bce7fb04c0818a3c744",
+                            "sha1": "a7d65673b2eb477016f9e09f321935bace545515",
+                            "sha256": "ad9cfc9be59cba96763dcca5d1b5759127d2f7920055b663dbcf29474bc368de"
+                        },
+                        "disc_count": 1,
+                        "disc_number": 1,
+                        "format": "iso",
+                        "implant_md5": "340b7dc15b9c74b8576b81c3b33fc3f2",
+                        "mtime": 1636012560,
+                        "path": "Server-Gluster/x86_64/iso/Gluster-2.3-DP-1-20211104.t.4-Server-x86_64-dvd1.iso",
+                        "size": 419840,
+                        "subvariant": "Server-Gluster",
+                        "type": "dvd",
+                        "volume_id": "Gluster-2.3 DP-1 Server.x86_64"
+                    }
+                ]
+            }
+        }
+    }
+}

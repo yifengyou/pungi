@@ -1,0 +1,27 @@
+FROM centos:7
+LABEL \
+    name="Pungi test" \
+    description="Run tests using tox with Python 2" \
+    vendor="Pungi developers" \
+    license="MIT"
+
+RUN yum -y update && yum -y install epel-release && yum -y install \
+        git \
+        libmodulemd2 \
+        make \
+        python3 \
+        python-createrepo_c \
+        python-gobject-base \
+        python-gssapi \
+        python-libcomps \
+        pykickstart \
+    && yum clean all
+
+# python-tox in yum repo is too old, let's install latest version
+RUN pip3 install tox
+
+WORKDIR /src
+
+COPY . .
+
+CMD ["tox", "-e", "py27"]
