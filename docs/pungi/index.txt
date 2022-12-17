@@ -1,0 +1,168 @@
+Welcome to Pungi’s documentation!
+*********************************
+
+Contents:
+
+* About Pungi
+
+  * Tool overview
+
+  * Links
+
+  * Origin of name
+
+* Phases
+
+  * Init
+
+  * Pkgset
+
+  * Buildinstall
+
+  * Gather
+
+  * ExtraFiles
+
+  * Createrepo
+
+  * OSTree
+
+  * Createiso
+
+  * ExtraIsos
+
+  * LiveImages, LiveMedia
+
+  * ImageBuild
+
+  * OSBuild
+
+  * OSBS
+
+  * ImageContainer
+
+  * OSTreeInstaller
+
+  * Repoclosure
+
+  * ImageChecksum
+
+  * Test
+
+* Config file format
+
+  * Importing other files
+
+  * Formatting strings
+
+* Configuration
+
+  * Minimal Config Example
+
+  * Release
+
+  * Base Product
+
+  * General Settings
+
+  * Image Naming
+
+  * Signing
+
+  * Git URLs
+
+  * Createrepo Settings
+
+  * Package Set Settings
+
+  * Buildinstall Settings
+
+  * Gather Settings
+
+  * Koji Settings
+
+  * Runroot “openssh” method settings
+
+  * Extra Files Settings
+
+  * CreateISO Settings
+
+  * Automatic generation of version and release
+
+  * Common options for Live Images, Live Media and Image Build
+
+  * Live Images Settings
+
+  * Live Media Settings
+
+  * Image Build Settings
+
+  * OSBuild Composer for building images
+
+  * Image container
+
+  * OSTree Settings
+
+  * Ostree Installer Settings
+
+  * OSBS Settings
+
+  * Extra ISOs
+
+  * Media Checksums Settings
+
+  * Translate Paths Settings
+
+  * Miscellaneous Settings
+
+* Big picture examples
+
+  * Fedora Rawhide compose
+
+  * RCM Tools compose
+
+* Exporting files from SCM
+
+  * Koji examples
+
+  * "file" vs. "dir"
+
+  * Caveats
+
+* Progress notification
+
+  * Setting it up
+
+* Gathering packages
+
+  * Variant types
+
+  * Profiling
+
+  * Modular compose
+
+* Processing comps files
+
+* Contributing to Pungi
+
+  * Set up development environment
+
+  * Developing
+
+  * Testing
+
+  * Documenting
+
+* Testing Pungi
+
+  * Test Data
+
+  * Unit Tests
+
+  * Functional Tests
+
+* Managing compose from multiple parts
+
+  * General settings
+
+  * Partial compose settings
